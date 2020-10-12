@@ -15,6 +15,9 @@ const getData = () => {
         //     "x-token": "vgTDUNFbaYGEVwct1CL9ckvzEvYfGf",
         //     "content-type": "application/json"
         // }
+        headers: {
+            "x-token": "VwTdih9OdR2Z39nNLhvIElwZR5xLp2"
+        }
       })
       .then(function (response) {
         console.log(response);

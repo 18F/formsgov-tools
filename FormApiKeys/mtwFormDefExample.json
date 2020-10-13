@@ -1,0 +1,3852 @@
+{
+    "_id": "5f6a3ae479743854b7dc688e",
+    "type": "form",
+    "tags": [],
+    "owner": "5f69f1169c7906297665b0ea",
+    "components": [
+        {
+            "title": "Start",
+            "theme": "primary",
+            "breadcrumbClickable": false,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "tableView": false,
+            "key": "startPanel",
+            "type": "panel",
+            "label": "Start",
+            "input": false,
+            "components": [
+                {
+                    "title": "Purpose",
+                    "breadcrumbClickable": true,
+                    "buttonSettings": {
+                        "previous": true,
+                        "cancel": true,
+                        "next": true
+                    },
+                    "collapsible": false,
+                    "tableView": false,
+                    "key": "StartPurpose",
+                    "type": "panel",
+                    "label": "Purpose",
+                    "input": false,
+                    "components": [
+                        {
+                            "html": "<p>The Moving to Work (MTW) Supplement to the Annual PHA Plan informs HUD, families served by the PHA, and members of the public, about the MTW Waivers and associated activities that the MTW agency seeks to implement in the coming Fiscal Year and updates the status of MTW activities that have been previously approved. It also provides information about Safe Harbor Waivers, Agency-Specific Waivers, compliance with MTW statutory requirements, and evaluations. The MTW Supplement does not replace the PHA Plan. MTW agencies must continue to submit the applicable PHA Plan. MTW agencies that are not required to submit annual PHA Plans under the Housing and Economic Recovery Act of 2008 (HERA) must submit the MTW Supplement annually, in addition to holding public hearings, obtaining board approval, and consulting with Resident Advisory Boards (RABs) and tenant associations, as applicable, on planned MTW activities.</p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "tableView": false,
+                            "key": "content",
+                            "type": "content",
+                            "input": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Applicability",
+                    "breadcrumbClickable": true,
+                    "buttonSettings": {
+                        "previous": true,
+                        "cancel": true,
+                        "next": true
+                    },
+                    "collapsible": false,
+                    "tableView": false,
+                    "key": "startApplicability",
+                    "type": "panel",
+                    "label": "Applicability",
+                    "input": false,
+                    "components": [
+                        {
+                            "html": "<p><span style=\"background-color:transparent;color:#000000;\">Form HUD-50075-MTW is to be completed annually by all MTW agencies brought onto the MTW Demonstration Program pursuant to Section 239 of the Fiscal Year 2016 Appropriations Act, P.L. 114-113 (2016 MTW Expansion Statute) or existing MTW agencies that chose to follow the requirements of the MTW Operations Notice.</span></p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "tableView": false,
+                            "key": "content1",
+                            "type": "content",
+                            "input": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Definitions",
+                    "breadcrumbClickable": true,
+                    "buttonSettings": {
+                        "previous": true,
+                        "cancel": true,
+                        "next": true
+                    },
+                    "collapsible": false,
+                    "tableView": false,
+                    "key": "startDefinitions",
+                    "type": "panel",
+                    "label": "Definitions",
+                    "input": false,
+                    "components": [
+                        {
+                            "html": "<p style=\"margin-left:9pt;\"><span style=\"background-color:transparent;color:#000000;\">All terms used in this MTW Supplement are consistent with the definitions stated in the MTW Operations Notice, including:</span></p><ol><li><span style=\"background-color:transparent;color:#000000;\"><strong>Local, Non-traditional Activities</strong> (LNT) – Those MTW activities that use MTW funding flexibility outside of the Housing Choice Voucher (HCV) and public housing programs established in Sections 8 and 9 of the U.S. Housing Act of 1937.</span></li><li><span style=\"background-color:transparent;color:#000000;\"><strong>Safe Harbors</strong> – The additional requirements, beyond those specified in the MTW activity description itself found in the MTW Operations Notice, following each activity description, that the MTW agency must follow in implementing MTW activities.</span></li><li><span style=\"background-color:transparent;color:#000000;\"><strong>Substantially the Same Requirement</strong> – A statutory MTW requirement that MTW agencies must continue to assist substantially the same total number of eligible low-income families as would have been served absent the MTW demonstration.</span></li></ol>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "tableView": false,
+                            "key": "content2",
+                            "type": "content",
+                            "input": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Explanatory Note",
+            "theme": "primary",
+            "breadcrumbClickable": false,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "key": "startPanel1",
+            "type": "panel",
+            "label": "Start",
+            "tableView": false,
+            "input": false,
+            "components": [
+                {
+                    "title": "Information to be Collected for MTW Activities",
+                    "breadcrumbClickable": true,
+                    "buttonSettings": {
+                        "previous": true,
+                        "cancel": true,
+                        "next": true
+                    },
+                    "collapsible": false,
+                    "key": "StartPurpose1",
+                    "type": "panel",
+                    "label": "Purpose",
+                    "tableView": false,
+                    "input": false,
+                    "components": [
+                        {
+                            "html": "<p><span style=\"background-color:transparent;color:#000000;\">The Moving to Work (MTW) Supplement collects information about policies implemented by MTW expansion agencies.&nbsp; MTW agencies use it to communicate their plans with residents and community stakeholders through required public comment processes, and HUD uses the information collected to monitor and evaluate the MTW demonstration program.&nbsp;</span></p><p><span style=\"background-color:transparent;color:#000000;\">The MTW Supplement asks for information about each of the MTW Waivers and associated activities that are made possible by the MTW Operations Notice, Safe Harbor Waivers and Agency-Specific Waivers, and a few other types of information.&nbsp; MTW agencies will fill in information/data through an online form and the information collected will be stored in a database so that it can be analyzed by HUD. The approved forms will be posted to the MTW website for viewing by the public.&nbsp;</span></p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "key": "content51",
+                            "type": "content",
+                            "tableView": false,
+                            "input": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Sections of the MTW Supplement",
+                    "breadcrumbClickable": true,
+                    "buttonSettings": {
+                        "previous": true,
+                        "cancel": true,
+                        "next": true
+                    },
+                    "collapsible": false,
+                    "key": "startApplicability1",
+                    "type": "panel",
+                    "label": "Applicability",
+                    "tableView": false,
+                    "input": false,
+                    "components": [
+                        {
+                            "html": "<p>A. PHA Information</p><p>B. Narrative</p><p>C. MTW Waivers and Associated MTW Activities</p><p>D. Safe Harbor Waivers</p><p>E. Agency-Specific Waivers</p><p>F. MTW Statutory Requirements</p><p>G. Public Comments</p><p>H. Evaluations</p><p>I. MTW Certifications of Compliance</p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "key": "content52",
+                            "type": "content",
+                            "tableView": false,
+                            "input": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "A. PHA Information",
+            "theme": "primary",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "tableView": false,
+            "key": "aPanel",
+            "type": "panel",
+            "label": "A. PHA Information",
+            "components": [
+                {
+                    "label": "PHA Code:",
+                    "widget": "html5",
+                    "tableView": true,
+                    "dataSrc": "json",
+                    "data": {
+                        "values": [
+                            {
+                                "label": "",
+                                "value": ""
+                            }
+                        ],
+                        "json": [
+                            {
+                                "phaCode": "AL123",
+                                "phaName": "Alabama PHA 123",
+                                "phaMtwFiscalMonth": "10",
+                                "phaProgramType": "PH",
+                                "mtwCohortNum": "1"
+                            },
+                            {
+                                "phaCode": "MD456",
+                                "phaName": "Maryland PHA 456",
+                                "phaMtwFiscalMonth": "01",
+                                "phaProgramType": "HCV",
+                                "mtwCohortNum": "2"
+                            },
+                            {
+                                "phaCode": "VA789",
+                                "phaName": "Virginia PHA 789",
+                                "phaMtwFiscalMonth": "04",
+                                "phaProgramType": "Combined",
+                                "mtwCohortNum": "2"
+                            },
+                            {
+                                "phaCode": "WY112",
+                                "phaName": "Wyoming PHA 112",
+                                "phaMtwFiscalMonth": "07",
+                                "phaProgramType": "PH",
+                                "mtwCohortNum": "3"
+                            },
+                            {
+                                "phaCode": "WY321",
+                                "phaName": "Wyoming PHA 321",
+                                "phaMtwFiscalMonth": "10",
+                                "phaProgramType": "HCV",
+                                "mtwCohortNum": "3"
+                            },
+                            {
+                                "phaCode": "WY322",
+                                "phaName": "Wyoming PHA 322",
+                                "phaMtwFiscalMonth": "04",
+                                "phaProgramType": "Combined",
+                                "mtwCohortNum": "4"
+                            }
+                        ]
+                    },
+                    "template": "<span>{{ item.phaCode }}</span>",
+                    "selectThreshold": 0.3,
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "aPhaCode",
+                    "logic": [
+                        {
+                            "name": "PassCohortNumber",
+                            "trigger": {
+                                "type": "javascript",
+                                "javascript": "// console.log(\"row *** \" + JSON.stringify(row));\n// console.log(\"data *** \" + JSON.stringify(data));\n// console.log(\"component *** \" + JSON.stringify(component));"
+                            },
+                            "actions": []
+                        }
+                    ],
+                    "type": "select",
+                    "indexeddb": {
+                        "filter": {}
+                    },
+                    "input": true
+                },
+                {
+                    "label": "PHA Program Type:",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "disabled": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Public Housing (PH) only",
+                            "value": "PH",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Housing Choice Voucher (HCV) only",
+                            "value": "HCV",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Combined",
+                            "value": "Combined",
+                            "shortcut": ""
+                        }
+                    ],
+                    "clearOnHide": false,
+                    "calculateValue": "value = data.aPhaCode.phaProgramType;",
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "aPhaProgramType",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "PHA Name:",
+                    "disabled": true,
+                    "tableView": true,
+                    "clearOnHide": false,
+                    "calculateValue": "value = data.aPhaCode.phaName;",
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "aPhaName",
+                    "type": "textfield",
+                    "input": true
+                },
+                {
+                    "label": "MTW Cohort Number:",
+                    "disabled": true,
+                    "tableView": true,
+                    "inputFormat": "html",
+                    "clearOnHide": false,
+                    "calculateValue": "value = data.aPhaCode.mtwCohortNum;",
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "aMtwCohortNumber",
+                    "type": "textfield",
+                    "input": true
+                },
+                {
+                    "label": "PHA MTW Supplement for Fiscal Year Beginning:",
+                    "format": "MM/dd/yyyy",
+                    "disabled": true,
+                    "tableView": false,
+                    "enableMinDateInput": false,
+                    "datePicker": {
+                        "disableWeekends": false,
+                        "disableWeekdays": false
+                    },
+                    "enableMaxDateInput": false,
+                    "enableTime": false,
+                    "clearOnHide": false,
+                    "calculateValue": "value = moment().year()+ \"-\" + data.aPhaCode.phaMtwFiscalMonth + \"-01T06:00:00.000Z\";",
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "aPhaMtwSupplementForFiscalYearBeginning",
+                    "type": "datetime",
+                    "input": true,
+                    "widget": {
+                        "type": "calendar",
+                        "displayInTimezone": "viewer",
+                        "locale": "en",
+                        "useLocaleSettings": false,
+                        "allowInput": true,
+                        "mode": "single",
+                        "enableTime": false,
+                        "noCalendar": false,
+                        "format": "MM/dd/yyyy",
+                        "hourIncrement": 1,
+                        "minuteIncrement": 1,
+                        "time_24hr": false,
+                        "minDate": null,
+                        "disableWeekends": false,
+                        "disableWeekdays": false,
+                        "maxDate": null
+                    }
+                },
+                {
+                    "label": "MTW Supplement Submission Type:",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Annual Submission",
+                            "value": "annualSubmission",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Amended Annual Submission",
+                            "value": "amendedAnnualSubmission",
+                            "shortcut": ""
+                        }
+                    ],
+                    "calculateValue": "console.log(\"Submission *** \" + JSON.stringify(submission));",
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "aMtwSupplementSubmissionType",
+                    "type": "radio",
+                    "input": true
+                }
+            ],
+            "input": false
+        },
+        {
+            "title": "B. Narrative",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "tableView": false,
+            "key": "bPanel",
+            "type": "panel",
+            "label": "B. Narrative",
+            "input": false,
+            "components": [
+                {
+                    "html": "<p><span style=\"background-color:transparent;color:#000000;\"><strong>MTW Supplement Narrative.</strong></span></p><p><span style=\"background-color:transparent;color:#000000;\">The narrative provides the MTW agency with an opportunity to explain to the public, including the families that is serves, its MTW plans for the fiscal year and its short and long-term goals.&nbsp;</span></p><p><span style=\"background-color:transparent;color:#000000;\">The MTW agency should provide a description of how it seeks to further the three MTW statutory objectives during the coming Fiscal Year. Those three MTW statutory objectives are: (1) to reduce cost and achieve greater cost effectiveness in federal expenditures; (2) to give incentives to families with children whose heads of household are either working, seeking work, or are participating in job training, educational or other programs that assist in obtaining employment and becoming economically self-sufficient; and (3) to increase housing choices for low-income families.</span></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "tableView": false,
+                    "key": "bNarrativeDescription",
+                    "type": "content",
+                    "input": false
+                },
+                {
+                    "label": "Narrative",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showCharCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "required": true,
+                        "maxLength": 5000
+                    },
+                    "key": "bNarrative",
+                    "type": "textarea",
+                    "input": true
+                }
+            ]
+        },
+        {
+            "title": "C. MTW Waivers and Associated Activities",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "tableView": false,
+            "key": "cPanel",
+            "type": "panel",
+            "label": "C. MTW Waivers and Associated Activities",
+            "input": false,
+            "components": [
+                {
+                    "html": "<p>Please select the MTW activities the PHA proposes to use this plan year:</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "tableView": false,
+                    "key": "cMtwActivitiesDescription",
+                    "type": "content",
+                    "input": false
+                },
+                {
+                    "label": "1.  Tenant Rent Policies",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cTenantRentPolicies",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "2.  Payment Standards and Rent Reasonableness (SMG - HCV & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cPaymentStandardsAndRentReasonableness",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "PH"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "3. Reexaminations",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cReexaminations",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "4. Landlord Leasing Incentives  (SMG-HCV & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cLandlordLeasingIncentives",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "PH"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "5. Housing Quality Standards (HQS) (SMG - HCV & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cHousingQualityStandardsHqs",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "PH"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "6. Short-Term Assistance",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cShortTermAssistance",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "7. Term-Limited Assistance",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cTermLimitedAssistance",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "8. Increase Elderly Age",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cIncreaseElderlyAge",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "9. Project-Based Voucher Program Flexibilities (SMG - HCV & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cProjectBasedVoucherProgramFlexibilities",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "PH"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "10. Family Self-Sufficiency Program with MTW Flexibility",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cFamilySelfSufficiencyProgramWithMtwFlexibility",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "11. MTW Self-Sufficiency Program",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cMtwSelfSufficiencyProgram",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "12. Work Requirement",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cWorkRequirement",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "13. Use of Public Housing as an Incentive for Economic Progress (SMG - PH & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cUseOfPublicHousingAsAnIncentiveForEconomicProgressSmgPhCombined",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "HCV"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "14. Moving on Policy",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cMovingOnPolicy",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "15. Acquisition without Prior HUD Approval (SMG - PH & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cAcquisitionWithoutPriorHudApprovalSmgPh",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "HCV"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "16. Deconcentration of Poverty in Public Housing Policy (SMG - PH & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cDeconcentrationOfPovertyInPublicHousingPolicySmgPhCombined",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "HCV"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "17. Local, Non-Traditional Activities",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cLocalNonTraditionalActivities",
+                    "type": "checkbox",
+                    "input": true
+                }
+            ]
+        },
+        {
+            "title": "C.1 Tenant Rent Policies",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "tableView": false,
+            "key": "c1Panel",
+            "conditional": {
+                "show": true,
+                "when": "cTenantRentPolicies",
+                "eq": "true"
+            },
+            "type": "panel",
+            "label": "C.1 Tenant Rent Policies",
+            "input": false,
+            "components": [
+                {
+                    "label": "C1Combined",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "questions": [
+                        {
+                            "label": "a. Tiered Rent (PH)",
+                            "value": "a"
+                        },
+                        {
+                            "label": "b. Tiered Rent (HCV)",
+                            "value": "b"
+                        },
+                        {
+                            "label": "c. Stepped Rent (PH)",
+                            "value": "c"
+                        },
+                        {
+                            "label": "d. Stepped Rent (HCV)",
+                            "value": "d"
+                        },
+                        {
+                            "label": "e. Minimum Rent (PH)",
+                            "value": "e"
+                        },
+                        {
+                            "label": "f. Minimum Rent (HCV)",
+                            "value": "f"
+                        },
+                        {
+                            "label": "g. Total Tenant Payment as a Percentage of Gross Income (PH)",
+                            "value": "g"
+                        },
+                        {
+                            "label": "h. Total Tenant Payment as a Percentage of Gross Income (HCV)",
+                            "value": "h"
+                        },
+                        {
+                            "label": "i. Alternative Utility Allowance (PH)",
+                            "value": "i"
+                        },
+                        {
+                            "label": "j. Alternative Utility Allowance (HCV)",
+                            "value": "j"
+                        },
+                        {
+                            "label": "k. Fixed Rents (PH)",
+                            "value": "k"
+                        },
+                        {
+                            "label": "l. Fixed Subsidy (HCV)",
+                            "value": "l"
+                        },
+                        {
+                            "label": "m. Utility Reimbursements (PH)",
+                            "value": "m"
+                        },
+                        {
+                            "label": "n. Utility Reimbursements (HCV)",
+                            "value": "n"
+                        },
+                        {
+                            "label": "o. Initial Rent Burden (HCV)",
+                            "value": "o"
+                        },
+                        {
+                            "label": "p. Imputed Income (PH)",
+                            "value": "p"
+                        },
+                        {
+                            "label": "q. Imputed Income (HCV)",
+                            "value": "q"
+                        },
+                        {
+                            "label": "r. Elimination of Deduction(s) (PH)",
+                            "value": "r"
+                        },
+                        {
+                            "label": "s. Elimination of Deduction(s) (HCV)",
+                            "value": "s"
+                        },
+                        {
+                            "label": "t. Standard Deductions (PH)",
+                            "value": "t"
+                        },
+                        {
+                            "label": "u. Standard Deductions (HCV)",
+                            "value": "u"
+                        },
+                        {
+                            "label": "v. Alternative Income Inclusions/Exclusions (PH)",
+                            "value": "v"
+                        },
+                        {
+                            "label": "w. Alternative Income Inclusions/Exclusions (HCV)",
+                            "value": "w"
+                        }
+                    ],
+                    "values": [
+                        {
+                            "label": "Discontinuing this submission year",
+                            "value": "discontinuingThisSubmissionYear"
+                        },
+                        {
+                            "label": "Plan to Implement this submission year",
+                            "value": "planToImplementThisSubmissionYear"
+                        },
+                        {
+                            "label": "In effect no planned changes",
+                            "value": "inEffectNoPlannedChanges"
+                        },
+                        {
+                            "label": "Planning changes to existing policy",
+                            "value": "planningChangesToExistingPolicy"
+                        }
+                    ],
+                    "calculateValue": "console.log(\"component *** \" + JSON.stringify(component));",
+                    "key": "c1SurveyCombined",
+                    "conditional": {
+                        "show": true,
+                        "when": "phaProgramType",
+                        "eq": "Combined"
+                    },
+                    "type": "survey",
+                    "input": true
+                },
+                {
+                    "label": "C1HCV",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "questions": [
+                        {
+                            "label": "b. Tiered Rent (HCV)",
+                            "value": "b"
+                        },
+                        {
+                            "label": "d. Stepped Rent (HCV)",
+                            "value": "d"
+                        },
+                        {
+                            "label": "f. Minimum Rent (HCV)",
+                            "value": "f"
+                        },
+                        {
+                            "label": "h. Total Tenant Payment as a Percentage of Gross Income (HCV)",
+                            "value": "h"
+                        },
+                        {
+                            "label": "j. Alternative Utility Allowance (HCV)",
+                            "value": "j"
+                        },
+                        {
+                            "label": "l. Fixed Subsidy (HCV)",
+                            "value": "l"
+                        },
+                        {
+                            "label": "n. Utility Reimbursements (HCV)",
+                            "value": "n"
+                        },
+                        {
+                            "label": "o. Initial Rent Burden (HCV)",
+                            "value": "o"
+                        },
+                        {
+                            "label": "q. Imputed Income (HCV)",
+                            "value": "q"
+                        },
+                        {
+                            "label": "s. Elimination of Deduction(s) (HCV)",
+                            "value": "s"
+                        },
+                        {
+                            "label": "u. Standard Deductions (HCV)",
+                            "value": "u"
+                        },
+                        {
+                            "label": "w. Alternative Income Inclusions/Exclusions (HCV)",
+                            "value": "w"
+                        }
+                    ],
+                    "values": [
+                        {
+                            "label": "Discontinuing this submission year",
+                            "value": "discontinuingThisSubmissionYear"
+                        },
+                        {
+                            "label": "Plan to Implement this submission year",
+                            "value": "planToImplementThisSubmissionYear"
+                        },
+                        {
+                            "label": "In effect no planned changes",
+                            "value": "inEffectNoPlannedChanges"
+                        },
+                        {
+                            "label": "Planning changes to existing policy",
+                            "value": "planningChangesToExistingPolicy"
+                        }
+                    ],
+                    "calculateValue": "console.log(\"component *** \" + JSON.stringify(component));",
+                    "key": "c1SurveyHcv",
+                    "conditional": {
+                        "show": true,
+                        "when": "phaProgramType",
+                        "eq": "HCV"
+                    },
+                    "type": "survey",
+                    "input": true
+                },
+                {
+                    "label": "C1PH",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "questions": [
+                        {
+                            "label": "a. Tiered Rent (PH)",
+                            "value": "a"
+                        },
+                        {
+                            "label": "c. Stepped Rent (PH)",
+                            "value": "c"
+                        },
+                        {
+                            "label": "e. Minimum Rent (PH)",
+                            "value": "e"
+                        },
+                        {
+                            "label": "g. Total Tenant Payment as a Percentage of Gross Income (PH)",
+                            "value": "g"
+                        },
+                        {
+                            "label": "i. Alternative Utility Allowance (PH)",
+                            "value": "i"
+                        },
+                        {
+                            "label": "k. Fixed Rents (PH)",
+                            "value": "k"
+                        },
+                        {
+                            "label": "m. Utility Reimbursements (PH)",
+                            "value": "m"
+                        },
+                        {
+                            "label": "p. Imputed Income (PH)",
+                            "value": "p"
+                        },
+                        {
+                            "label": "r. Elimination of Deduction(s) (PH)",
+                            "value": "r"
+                        },
+                        {
+                            "label": "t. Standard Deductions (PH)",
+                            "value": "t"
+                        },
+                        {
+                            "label": "v. Alternative Income Inclusions/Exclusions (PH)",
+                            "value": "v"
+                        }
+                    ],
+                    "values": [
+                        {
+                            "label": "Discontinuing this submission year",
+                            "value": "discontinuingThisSubmissionYear"
+                        },
+                        {
+                            "label": "Plan to Implement this submission year",
+                            "value": "planToImplementThisSubmissionYear"
+                        },
+                        {
+                            "label": "In effect no planned changes",
+                            "value": "inEffectNoPlannedChanges"
+                        },
+                        {
+                            "label": "Planning changes to existing policy",
+                            "value": "planningChangesToExistingPolicy"
+                        }
+                    ],
+                    "calculateValue": "console.log(\"component *** \" + JSON.stringify(component));",
+                    "key": "c1SurveyPh",
+                    "conditional": {
+                        "show": true,
+                        "when": "phaProgramType",
+                        "eq": "PH"
+                    },
+                    "type": "survey",
+                    "input": true
+                }
+            ]
+        },
+        {
+            "title": "C.1.a  Tiered Rent (PH)",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "key": "c1aPanel",
+            "customConditional": "if (data.c1SurveyCombined && (data.c1SurveyCombined.a == \"planningChangesToExistingPolicy\" || data.c1SurveyCombined.a == \"planToImplementThisSubmissionYear\")){\r\n  show = true;\r\n} else if (data.c1SurveyHcv && (data.c1SurveyHcv.a == \"planningChangesToExistingPolicy\" || data.c1SurveyHcv.a == \"planToImplementThisSubmissionYear\")){\r\n  show = true;\r\n} else if (data.c1SurveyPh && (data.c1SurveyPh.a == \"planningChangesToExistingPolicy\" || data.c1SurveyPh.a == \"planToImplementThisSubmissionYear\")){\r\n  show = true;\r\n} else {\r\n  show = false;\r\n}",
+            "type": "panel",
+            "label": "C.1.a  Tiered Rent (PH)",
+            "tableView": false,
+            "input": false,
+            "components": [
+                {
+                    "html": "<p><span style=\"background-color:transparent;color:#000000;\"><strong>Narrative.</strong>&nbsp; Describe the MTW activity, the MTW agency’s goal(s) for the MTW activity, and, if applicable, how the MTW activity contributes to a larger initiative.&nbsp;</span></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "tableView": false,
+                    "key": "c1aNarrativeDescription",
+                    "type": "content",
+                    "input": false
+                },
+                {
+                    "label": "Narrative",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showWordCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxWords": 500
+                    },
+                    "key": "c1aNarrative",
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "html": "<p><span style=\"background-color:transparent;color:#000000;\"><strong>MTW Statutory Objectives.&nbsp; </strong>Which of the MTW statutory objectives does this MTW activity serve? &nbsp;(check all that apply)</span></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "tableView": false,
+                    "key": "c1aMtwStatutoryObjectivesDescription",
+                    "type": "content",
+                    "input": false
+                },
+                {
+                    "label": "MTW Statutory Objectives",
+                    "optionsLabelPosition": "right",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "defaultValue": {
+                        "": false,
+                        "costEffectiveness": false,
+                        "selfSufficiency": false,
+                        "housingChoice": false
+                    },
+                    "values": [
+                        {
+                            "label": "Cost effectiveness",
+                            "value": "costEffectiveness",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Self-sufficiency",
+                            "value": "selfSufficiency",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Housing choice",
+                            "value": "housingChoice",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aMtwStatutoryObjectives",
+                    "type": "selectboxes",
+                    "input": true,
+                    "inputType": "checkbox"
+                },
+                {
+                    "html": "<p><span style=\"background-color:transparent;color:#000000;\"><strong>Cost implications. </strong>What are the cost implications of this MTW activity?&nbsp; Pick the best description of the cost implications based on what you know today. &nbsp;(Check all that apply)</span></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "tableView": false,
+                    "key": "content7",
+                    "type": "content",
+                    "input": false
+                },
+                {
+                    "label": "Cost implications",
+                    "optionsLabelPosition": "right",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "defaultValue": {
+                        "": false,
+                        "neutralNoCostImplications": false,
+                        "increasedRevenue": false,
+                        "decreasedRevenue": false,
+                        "increasedExpenditures": false,
+                        "decreasedExpenditures": false
+                    },
+                    "values": [
+                        {
+                            "label": "Neutral (no cost implications)",
+                            "value": "neutralNoCostImplications",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Increased revenue",
+                            "value": "increasedRevenue",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Decreased revenue",
+                            "value": "decreasedRevenue",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Increased expenditures",
+                            "value": "increasedExpenditures",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Decreased expenditures",
+                            "value": "decreasedExpenditures",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aCostImplications",
+                    "type": "selectboxes",
+                    "input": true,
+                    "inputType": "checkbox"
+                },
+                {
+                    "html": "<p><span style=\"background-color:transparent;color:#000000;\"><strong>Different policy by household/family types? </strong>Will there be different policies for different types of households (i.e., new admissions or currently assisted) or family types?&nbsp;&nbsp;</span></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "tableView": false,
+                    "key": "content8",
+                    "type": "content",
+                    "input": false
+                },
+                {
+                    "label": "Different policy by household/family types?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aDifferentPolicyByHouseholdFamilyTypes",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Household Types. </strong>What type of households does this MTW activity apply to?</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content19",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDifferentPolicyByHouseholdFamilyTypes",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Household Types",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "New admissions (i.e, applicants) only",
+                            "value": "newAdmissionsIEApplicantsOnly",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Currently assisted households only",
+                            "value": "currentlyAssistedHouseholdsOnly",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "New and currently assisted households",
+                            "value": "newAndCurrentlyAssistedHouseholds",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aHouseholdTypes",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDifferentPolicyByHouseholdFamilyTypes",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Family Types. </strong>Does this MTW activity apply to selected population subgroups?</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content20",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDifferentPolicyByHouseholdFamilyTypes",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Family Types",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "It applies to all family types",
+                            "value": "itAppliesToAllFamilyTypes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "It applies only to selected family types",
+                            "value": "itAppliesOnlyToSelectedFamilyTypes",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aFamilyTypes",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDifferentPolicyByHouseholdFamilyTypes",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "The families to whom this MTW activity applies include:",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Non-elderly, non-disabled families",
+                            "value": "nonElderlyNonDisabledFamilies",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Elderly families",
+                            "value": "elderlyFamilies",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Disabled families (to the extent those families are not exempt via a reasonable accommodation)",
+                            "value": "disabledFamiliesToTheExtentThoseFamiliesAreNotExemptViaAReasonableAccommodation",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Other specially defined target population(s)",
+                            "value": "otherSpeciallyDefinedTargetPopulationS",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aTheFamiliesToWhomThisMtwActivityAppliesInclude",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aFamilyTypes",
+                        "eq": "itAppliesOnlyToSelectedFamilyTypes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "Please describe the other specially defined target population(s)",
+                    "autoExpand": false,
+                    "tableView": true,
+                    "key": "c1aFamilyTypesOtherDescription",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aTheFamiliesToWhomThisMtwActivityAppliesInclude",
+                        "eq": "otherSpeciallyDefinedTargetPopulationS"
+                    },
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>All sites, or only specific sites?</strong> Is (or will) this MTW activity be implemented only in Public Housing (PH), Housing Choice Voucher (HCV), or Local, Non-Traditional (LNT) sites?</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content35",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDifferentPolicyByHouseholdFamilyTypes",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "All sites, or only specific sites?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "All PH sites",
+                            "value": "allPhSites",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Selected PH sites ",
+                            "value": "selectedPhSites",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aAllSitesOrOnlySpecificSites",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDifferentPolicyByHouseholdFamilyTypes",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "Which sites are or will be involved?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "All HCV/PBV",
+                            "value": "allHcvPbv",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Selected HCV/PBV",
+                            "value": "selectedHcvPbv",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "All LNT",
+                            "value": "allLnt",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Selected LNT",
+                            "value": "selectedLnt",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aWhichSitesAreOrWillBeInvolved",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aAllSitesOrOnlySpecificSites",
+                        "eq": "selectedPhSites"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Does this MTW agency need a Safe Harbor Waiver to implement this MTW activity as described?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content36",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Does this MTW agency need a Safe Harbor Waiver to implement this MTW activity as described?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aDoesThisMtwAgencyNeedASafeHarborWaiver",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "What is the status of the Safe Harbor Waiver request?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "The waiver request is being submitted for review with this submission of the MTW Supplement  (see Section D).",
+                            "value": "theWaiverRequestIsBeingSubmittedForReviewWithThisSubmissionOfTheMtwSupplementSeeSectionD",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "The waiver was previously approved.",
+                            "value": "theWaiverWasPreviouslyApproved",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aWhatIsTheStatusOfTheSafeHarborWaiverRequest",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwAgencyNeedASafeHarborWaiver",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p>Please describe the extent to which the Safe Harbor Waiver is supporting the MTW agency's goal in implementing this MTW activity.</p>",
+                    "label": "Safe Harbor Request Description Label",
+                    "refreshOnChange": false,
+                    "key": "c1aSafeHarborRequestDescriptionLabel",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aWhatIsTheStatusOfTheSafeHarborWaiverRequest",
+                        "eq": "theWaiverWasPreviouslyApproved"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Safe Harbor status description",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showWordCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxWords": 250
+                    },
+                    "key": "ca1SafeHarborStatusDescription",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aWhatIsTheStatusOfTheSafeHarborWaiverRequest",
+                        "eq": "theWaiverWasPreviouslyApproved"
+                    },
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Does this MTW &nbsp;activity require a hardship policy?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content37",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Does this MTW activity require a hardship policy?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "Upload Hardship Policy",
+                    "tableView": false,
+                    "webcam": false,
+                    "fileTypes": [
+                        {
+                            "label": "",
+                            "value": ""
+                        }
+                    ],
+                    "key": "ca1UploadHardshipPolicy",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                        "eq": "yes"
+                    },
+                    "type": "file",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Does the hardship policy apply to more than this MTW activity?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content38",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Does the hardship policy apply to more than this MTW activity?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aDoesTheHardshipPolicyApplyToMoreThanThisMtwActivity",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p>Please list all of the applicable MTW activities. (Only upload hardship policy once when said policy applies to multiple MTW activities.)</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content43",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheHardshipPolicyApplyToMoreThanThisMtwActivity",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Hardship Policy Applicable MTW Activities",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showWordCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxWords": 250
+                    },
+                    "key": "c1aHardshipPolicyApplicableMtwActivities",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheHardshipPolicyApplyToMoreThanThisMtwActivity",
+                        "eq": "yes"
+                    },
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Has the MTW agency modified the hardship policy since the last submission of the MTW Supplement?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content44",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Has the MTW agency modified the hardship policy since the last submission of the MTW Supplement?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aHasTheMtwAgencyModifiedTheHardshipPolicySinceTheLastSubmissionOfTheMtwSupplement",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p>What considerations led the MTW agency to modify the hardship policy?</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content48",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "What considerations led the MTW agency to modify the hardship policy?",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showWordCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxWords": 250
+                    },
+                    "key": "c1aWhatConsiderationsLedTheMtwAgencyToModifyTheHardshipPolicy",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aHasTheMtwAgencyModifiedTheHardshipPolicySinceTheLastSubmissionOfTheMtwSupplement",
+                        "eq": "yes"
+                    },
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>How many hardship requests have been received associated with this activity in the past year?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content39",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Columns",
+                    "columns": [
+                        {
+                            "components": [
+                                {
+                                    "label": "Number of hardship requests associated with the activity in the past year",
+                                    "hideLabel": true,
+                                    "mask": false,
+                                    "spellcheck": true,
+                                    "tableView": false,
+                                    "delimiter": false,
+                                    "requireDecimal": false,
+                                    "inputFormat": "plain",
+                                    "key": "c1aNumberOfHardshipRequestsAssociatedWithTheActivityInThePastYear",
+                                    "type": "number",
+                                    "input": true,
+                                    "hideOnChildrenHidden": false
+                                }
+                            ],
+                            "width": 2,
+                            "offset": 0,
+                            "push": 0,
+                            "pull": 0,
+                            "size": "md"
+                        },
+                        {
+                            "components": [],
+                            "width": 10,
+                            "offset": 0,
+                            "push": 0,
+                            "pull": 0,
+                            "size": "md"
+                        }
+                    ],
+                    "key": "columns",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                        "eq": "yes"
+                    },
+                    "type": "columns",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "key": "fieldset",
+                    "customConditional": "show = data.c1aNumberOfHardshipRequestsAssociatedWithTheActivityInThePastYear > 0;",
+                    "type": "fieldset",
+                    "label": "",
+                    "input": false,
+                    "tableView": false,
+                    "components": [
+                        {
+                            "html": "<p>How many hardship requests were approved?</p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "key": "content45",
+                            "conditional": {
+                                "show": true,
+                                "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                                "eq": "yes"
+                            },
+                            "type": "content",
+                            "input": false,
+                            "tableView": false
+                        },
+                        {
+                            "label": "Columns",
+                            "columns": [
+                                {
+                                    "components": [
+                                        {
+                                            "label": "How many hardship requests were approved?",
+                                            "hideLabel": true,
+                                            "mask": false,
+                                            "spellcheck": true,
+                                            "tableView": false,
+                                            "delimiter": false,
+                                            "requireDecimal": false,
+                                            "inputFormat": "plain",
+                                            "key": "c1aHowManyHardshipRequestsWereApproved",
+                                            "type": "number",
+                                            "input": true,
+                                            "hideOnChildrenHidden": false
+                                        }
+                                    ],
+                                    "push": 0,
+                                    "pull": 0,
+                                    "size": "md",
+                                    "width": 2,
+                                    "offset": 0
+                                },
+                                {
+                                    "components": [],
+                                    "offset": 0,
+                                    "push": 0,
+                                    "pull": 0,
+                                    "size": "md",
+                                    "width": 10
+                                }
+                            ],
+                            "key": "columns1",
+                            "conditional": {
+                                "show": true,
+                                "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                                "eq": "yes"
+                            },
+                            "type": "columns",
+                            "input": false,
+                            "tableView": false
+                        },
+                        {
+                            "html": "<p>How many hardship requests were denied?</p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "key": "content46",
+                            "conditional": {
+                                "show": true,
+                                "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                                "eq": "yes"
+                            },
+                            "type": "content",
+                            "input": false,
+                            "tableView": false
+                        },
+                        {
+                            "label": "Columns",
+                            "columns": [
+                                {
+                                    "components": [
+                                        {
+                                            "label": "How many hardships requests were denied",
+                                            "hideLabel": true,
+                                            "mask": false,
+                                            "spellcheck": true,
+                                            "tableView": false,
+                                            "delimiter": false,
+                                            "requireDecimal": false,
+                                            "inputFormat": "plain",
+                                            "key": "c1aHowManyHardshipsRequestsWereDenied",
+                                            "type": "number",
+                                            "input": true,
+                                            "hideOnChildrenHidden": false
+                                        }
+                                    ],
+                                    "offset": 0,
+                                    "push": 0,
+                                    "pull": 0,
+                                    "size": "md",
+                                    "width": 2
+                                },
+                                {
+                                    "components": [],
+                                    "offset": 0,
+                                    "push": 0,
+                                    "pull": 0,
+                                    "size": "md",
+                                    "width": 10
+                                }
+                            ],
+                            "key": "columns2",
+                            "conditional": {
+                                "show": true,
+                                "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                                "eq": "yes"
+                            },
+                            "type": "columns",
+                            "input": false,
+                            "tableView": false
+                        },
+                        {
+                            "html": "<p>How many are pending?</p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "key": "content47",
+                            "conditional": {
+                                "show": true,
+                                "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                                "eq": "yes"
+                            },
+                            "type": "content",
+                            "input": false,
+                            "tableView": false
+                        },
+                        {
+                            "label": "Columns",
+                            "columns": [
+                                {
+                                    "components": [
+                                        {
+                                            "label": "How many are pending?",
+                                            "hideLabel": true,
+                                            "mask": false,
+                                            "spellcheck": true,
+                                            "tableView": false,
+                                            "delimiter": false,
+                                            "requireDecimal": false,
+                                            "inputFormat": "plain",
+                                            "key": "c1aHowManyArePending",
+                                            "type": "number",
+                                            "input": true,
+                                            "hideOnChildrenHidden": false
+                                        }
+                                    ],
+                                    "width": 2,
+                                    "offset": 0,
+                                    "push": 0,
+                                    "pull": 0,
+                                    "size": "md"
+                                },
+                                {
+                                    "components": [],
+                                    "offset": 0,
+                                    "push": 0,
+                                    "pull": 0,
+                                    "size": "md",
+                                    "width": 10
+                                }
+                            ],
+                            "key": "columns3",
+                            "conditional": {
+                                "show": true,
+                                "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                                "eq": "yes"
+                            },
+                            "type": "columns",
+                            "input": false,
+                            "tableView": false
+                        }
+                    ]
+                },
+                {
+                    "html": "<p><strong>Does the MTW activity require an impact analysis?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content40",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Does the MTW activity require an impact analysis ",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aDoesTheMtwActivityRequireAnImpactAnalysis",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "Upload Impact Analysis",
+                    "tableView": false,
+                    "webcam": false,
+                    "fileTypes": [
+                        {
+                            "label": "",
+                            "value": ""
+                        }
+                    ],
+                    "key": "uploadImpactAnalysis",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheMtwActivityRequireAnImpactAnalysis",
+                        "eq": "yes"
+                    },
+                    "type": "file",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Does the impact analysis apply to more than this MTW activity?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content41",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheMtwActivityRequireAnImpactAnalysis",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Does the impact analysis apply to more than this MTW activity?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aDoesTheImpactAnalysisApplyToMoreThanThisMtwActivity",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheMtwActivityRequireAnImpactAnalysis",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p>Please list all of the applicable MTW activities. (Only upload impact analysis once when said impact analysis applies to multiple MTW activities.)</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content49",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheImpactAnalysisApplyToMoreThanThisMtwActivity",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Please list all of the applicable MTW activities. (Only upload impact analysis once when said impact analysis applies to multiple MTW activities.)",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showWordCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxWords": 250
+                    },
+                    "key": "c1aImpactAnalysisApplicableMtwActivities",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheImpactAnalysisApplyToMoreThanThisMtwActivity",
+                        "eq": "yes"
+                    },
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Based on the Fiscal Year goals listed in the activity's previous Fiscal Year's narrative, provide a description about what has been accomplished or changed during implementation.</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content42",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "html": "<p>Provide a description about what has been accomplished or changed during the implementation.</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content50",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Provide a description about what has been accomplished or changed during the implementation.",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showWordCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxWords": 250
+                    },
+                    "key": "provideADescriptionAboutWhatHasBeenAccomplishedOrChangedDuringTheImplementation",
+                    "type": "textarea",
+                    "input": true
+                }
+            ]
+        },
+        {
+            "title": "C.1.a Tiered Rent Custom Questions (PH)",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": true,
+                "next": true
+            },
+            "collapsible": false,
+            "key": "c1aCustom",
+            "customConditional": "if (data.c1SurveyCombined && (data.c1SurveyCombined.a == \"planningChangesToExistingPolicy\" || data.c1SurveyCombined.a == \"planToImplementThisSubmissionYear\")){\r\n  show = true;\r\n} else if (data.c1SurveyHcv && (data.c1SurveyHcv.a == \"planningChangesToExistingPolicy\" || data.c1SurveyHcv.a == \"planToImplementThisSubmissionYear\")){\r\n  show = true;\r\n} else if (data.c1SurveyPh && (data.c1SurveyPh.a == \"planningChangesToExistingPolicy\" || data.c1SurveyPh.a == \"planToImplementThisSubmissionYear\")){\r\n  show = true;\r\n} else {\r\n  show = false;\r\n}",
+            "type": "panel",
+            "label": "C.1.a Tiered Rent Custom Questions (PH)",
+            "components": [
+                {
+                    "html": "<p>Please describe how the income bands are structured.</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content3",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Text Area",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxLength": 500
+                    },
+                    "key": "textArea",
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "label": "Please upload the tiered rent policy table that shows the income bands.",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "webcam": false,
+                    "fileTypes": [
+                        {
+                            "label": "",
+                            "value": ""
+                        }
+                    ],
+                    "key": "file",
+                    "type": "file",
+                    "input": true
+                },
+                {
+                    "html": "<p>Please upload the tiered rent policy table that shows the income bands.</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content9",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "What is the income basis for assigning households to income?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Total annual income",
+                            "value": "totalAnnualIncome",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Adjusted annual income",
+                            "value": "adjustedAnnualIncome",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "whatIsTheBasisForAssigningHouseholdsToIncome1",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "How is the total annual income defined?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "According to 24 CFR 5.609 just like non-MTW PHAs",
+                            "value": "accordingTo24Cfr5609JustLikeNonMtwPhAs",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "As per the MTW activity 1.v. or 1.w. (Alternative Income Inclusions/Exclusions)",
+                            "value": "asPerTheMtwActivity1VOr1WAlternativeIncomeInclusionsExclusions",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "howIsTheTotalAnnualIncomeDefined2",
+                    "conditional": {
+                        "show": true,
+                        "when": "whatIsTheBasisForAssigningHouseholdsToIncome1",
+                        "eq": "totalAnnualIncome"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "How is adjusted annual income defined?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "As per 24 CFR 5.611 just like non-MTW PHAs",
+                            "value": "asPer24Cfr5611JustLikeNonMtwPhAs",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "As defined in MTW activity 1.r. or 1.s. (Elimination of Deductions (PH & HCV)",
+                            "value": "asDefinedInMtwActivity1ROr1SEliminationOfDeductionsPhHcv",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "As defined in MTW activity 1.t. or 1.u. (Standard Deductions (PH & HCV)",
+                            "value": "asDefinedInMtwActivity1TOr1UStandardDeductionsPhHcv",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "howIsAdjustedAnnualIncomeDefined2",
+                    "conditional": {
+                        "show": true,
+                        "when": "whatIsTheBasisForAssigningHouseholdsToIncome1",
+                        "eq": "adjustedAnnualIncome"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "How is the annual income defined?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "According to 24 CFR 5.609 just like non-MTW PHAs",
+                            "value": "accordingTo24Cfr5609JustLikeNonMtwPhAs",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "As per the MTW activity 1.v. or 1.w. (Alternative Income Inclusions/Exclusions)",
+                            "value": "asPerTheMtwActivity1VOr1WAlternativeIncomeInclusionsExclusions",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "howIsTheAnnualIncomeDefined",
+                    "conditional": {
+                        "show": true,
+                        "when": "whatIsTheBasisForAssigningHouseholdsToIncome1",
+                        "eq": "adjustedAnnualIncome"
+                    },
+                    "type": "radio",
+                    "input": true
+                }
+            ],
+            "input": false,
+            "tableView": false
+        },
+        {
+            "title": "C.1.a Safe Harbor Waivers (PH)",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": true,
+                "next": true
+            },
+            "collapsible": false,
+            "key": "c1aSafeHarbor",
+            "customConditional": "if (data.c1SurveyCombined && (data.c1SurveyCombined.a == \"planningChangesToExistingPolicy\" || data.c1SurveyCombined.a == \"planToImplementThisSubmissionYear\")){\r\n  show = true;\r\n} else if (data.c1SurveyHcv && (data.c1SurveyHcv.a == \"planningChangesToExistingPolicy\" || data.c1SurveyHcv.a == \"planToImplementThisSubmissionYear\")){\r\n  show = true;\r\n} else if (data.c1SurveyPh && (data.c1SurveyPh.a == \"planningChangesToExistingPolicy\" || data.c1SurveyPh.a == \"planToImplementThisSubmissionYear\")){\r\n  show = true;\r\n} else {\r\n  show = false;\r\n}",
+            "type": "panel",
+            "label": "C.1.a Safe Harbor Waivers (PH)",
+            "input": false,
+            "tableView": false,
+            "components": [
+                {
+                    "html": "<p><span style=\"background-color:transparent;color:#000000;\"><strong>Safe Harbor Waivers seeking HUD Approval:</strong></span></p><p><span style=\"background-color:transparent;color:#000000;\">The MTW Operations Notice describes a simplified process for MTW agencies to implement MTW activities outside of the safe harbors described in Appendix I.&nbsp; For each Safe Harbor Waiver request, a document that includes the following information must be provided: (a) the name and number of the MTW Waiver and associated activity for which the MTW agency is seeking to expand the safe harbor, (b) the specific safe harbor and its implementing regulation, (c) the proposed MTW activity the MTW agency wishes to implement via this Safe Harbor Waiver, (d) a description of the local issue and why such an expansion is needed to implement the MTW activity, (e) an impact analysis, (f) a description of the hardship policy for the MTW activity, if applicable, and (g) a copy of all comments received at the public hearing along with the MTW agency’s&nbsp; description of how the comments were considered, as a required attachment to the MTW Supplement.</span></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content5",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Will the MTW agency submit request for approval of a Safe Harbor Waiver this year?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "willTheMtwAgencySubmitRequestForApprovalOfASafeHarborWaiverThisYear",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p>Upload required information in a-g above for each Safe Harbor Waiver request.</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content10",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Upload required information in a-g above for each Safe Harbor Waiver request.",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "webcam": false,
+                    "fileTypes": [
+                        {
+                            "label": "",
+                            "value": ""
+                        }
+                    ],
+                    "key": "uploadRequiredInformationInAGAboveForEachSafeHarborWaiverRequest",
+                    "type": "file",
+                    "input": true
+                }
+            ]
+        },
+        {
+            "title": "C.1.b  Tiered Rent (HCV)",
+            "collapsible": false,
+            "key": "c1bPanel",
+            "customConditional": "if (data.c1SurveyCombined && (data.c1SurveyCombined.b == \"planningChangesToExistingPolicy\" || data.c1SurveyCombined.b == \"planToImplementThisSubmissionYear\")){\r\n  show = true;\r\n} else if (data.c1SurveyHcv && (data.c1SurveyHcv.b == \"planningChangesToExistingPolicy\" || data.c1SurveyHcv.b == \"planToImplementThisSubmissionYear\")){\r\n  show = true;\r\n} else if (data.c1SurveyPh && (data.c1SurveyPh.b == \"planningChangesToExistingPolicy\" || data.c1SurveyPh.b == \"planToImplementThisSubmissionYear\")){\r\n  show = true;\r\n} else {\r\n  show = false;\r\n}",
+            "type": "panel",
+            "label": "C.1.b  Tiered Rent (HCV)",
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "breadcrumbClickable": true,
+            "tableView": false,
+            "input": false,
+            "components": [
+                {
+                    "html": "<p><span style=\"background-color:transparent;color:#000000;\"><strong>Narrative.</strong>&nbsp; Describe the MTW activity, the MTW agency’s goal(s) for the MTW activity, and, if applicable, how the MTW activity contributes to a larger initiative.&nbsp;</span></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "tableView": false,
+                    "key": "c1aNarrativeDescription1",
+                    "type": "content",
+                    "input": false
+                },
+                {
+                    "label": "Narrative",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showWordCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxWords": 500
+                    },
+                    "key": "c1aNarrative1",
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "html": "<p><span style=\"background-color:transparent;color:#000000;\"><strong>MTW Statutory Objectives.&nbsp; </strong>Which of the MTW statutory objectives does this MTW activity serve? &nbsp;(check all that apply)</span></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "tableView": false,
+                    "key": "c1aMtwStatutoryObjectivesDescription1",
+                    "type": "content",
+                    "input": false
+                },
+                {
+                    "label": "MTW Statutory Objectives",
+                    "optionsLabelPosition": "right",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "defaultValue": {
+                        "": false,
+                        "costEffectiveness": false,
+                        "selfSufficiency": false,
+                        "housingChoice": false
+                    },
+                    "values": [
+                        {
+                            "label": "Cost effectiveness",
+                            "value": "costEffectiveness",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Self-sufficiency",
+                            "value": "selfSufficiency",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Housing choice",
+                            "value": "housingChoice",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aMtwStatutoryObjectives1",
+                    "type": "selectboxes",
+                    "input": true,
+                    "inputType": "checkbox"
+                },
+                {
+                    "html": "<p><span style=\"background-color:transparent;color:#000000;\"><strong>Cost implications. </strong>What are the cost implications of this MTW activity?&nbsp; Pick the best description of the cost implications based on what you know today. &nbsp;(Check all that apply)</span></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "tableView": false,
+                    "key": "content13",
+                    "type": "content",
+                    "input": false
+                },
+                {
+                    "label": "Cost implications",
+                    "optionsLabelPosition": "right",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "defaultValue": {
+                        "": false,
+                        "neutralNoCostImplications": false,
+                        "increasedRevenue": false,
+                        "decreasedRevenue": false,
+                        "increasedExpenditures": false,
+                        "decreasedExpenditures": false
+                    },
+                    "values": [
+                        {
+                            "label": "Neutral (no cost implications)",
+                            "value": "neutralNoCostImplications",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Increased revenue",
+                            "value": "increasedRevenue",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Decreased revenue",
+                            "value": "decreasedRevenue",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Increased expenditures",
+                            "value": "increasedExpenditures",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Decreased expenditures",
+                            "value": "decreasedExpenditures",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aCostImplications1",
+                    "type": "selectboxes",
+                    "input": true,
+                    "inputType": "checkbox"
+                },
+                {
+                    "html": "<p><span style=\"background-color:transparent;color:#000000;\"><strong>Different policy by household/family types? </strong>Will there be different policies for different types of households (i.e., new admissions or currently assisted) or family types?&nbsp;&nbsp;</span></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "tableView": false,
+                    "key": "content14",
+                    "type": "content",
+                    "input": false
+                },
+                {
+                    "label": "Different policy by household/family types?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aDifferentPolicyByHouseholdFamilyTypes1",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Household Types. </strong>What type of households does this MTW activity apply to?</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content21",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDifferentPolicyByHouseholdFamilyTypes1",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Household Types",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "New admissions (i.e, applicants) only",
+                            "value": "newAdmissionsIEApplicantsOnly",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Currently assisted households only",
+                            "value": "currentlyAssistedHouseholdsOnly",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "New and currently assisted households",
+                            "value": "newAndCurrentlyAssistedHouseholds",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aHouseholdTypes1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDifferentPolicyByHouseholdFamilyTypes1",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Family Types. </strong>Does this MTW activity apply to selected population subgroups?</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content22",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDifferentPolicyByHouseholdFamilyTypes1",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Family Types",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "It applies to all family types",
+                            "value": "itAppliesToAllFamilyTypes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "It applies only to selected family types",
+                            "value": "itAppliesOnlyToSelectedFamilyTypes",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aFamilyTypes1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDifferentPolicyByHouseholdFamilyTypes1",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "The families to whom this MTW activity applies include:",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Non-elderly, non-disabled families",
+                            "value": "nonElderlyNonDisabledFamilies",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Elderly families",
+                            "value": "elderlyFamilies",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Disabled families (to the extent those families are not exempt via a reasonable accommodation)",
+                            "value": "disabledFamiliesToTheExtentThoseFamiliesAreNotExemptViaAReasonableAccommodation",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Other specially defined target population(s)",
+                            "value": "otherSpeciallyDefinedTargetPopulationS",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aTheFamiliesToWhomThisMtwActivityAppliesInclude1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aFamilyTypes1",
+                        "eq": "itAppliesOnlyToSelectedFamilyTypes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "Please describe the other specially defined target population(s)",
+                    "autoExpand": false,
+                    "tableView": true,
+                    "key": "c1aFamilyTypesOtherDescription1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aTheFamiliesToWhomThisMtwActivityAppliesInclude1",
+                        "eq": "otherSpeciallyDefinedTargetPopulationS"
+                    },
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>All sites, or only specific sites?</strong> Is (or will) this MTW activity be implemented only in Public Housing (PH), Housing Choice Voucher (HCV), or Local, Non-Traditional (LNT) sites?</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content53",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDifferentPolicyByHouseholdFamilyTypes1",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "All sites, or only specific sites?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "All PH sites",
+                            "value": "allPhSites",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Selected PH sites ",
+                            "value": "selectedPhSites",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aAllSitesOrOnlySpecificSites1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDifferentPolicyByHouseholdFamilyTypes1",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "Which sites are or will be involved?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "All HCV/PBV",
+                            "value": "allHcvPbv",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Selected HCV/PBV",
+                            "value": "selectedHcvPbv",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "All LNT",
+                            "value": "allLnt",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Selected LNT",
+                            "value": "selectedLnt",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aWhichSitesAreOrWillBeInvolved1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aAllSitesOrOnlySpecificSites1",
+                        "eq": "selectedPhSites"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Does this MTW agency need a Safe Harbor Waiver to implement this MTW activity as described?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content54",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Does this MTW agency need a Safe Harbor Waiver to implement this MTW activity as described?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aDoesThisMtwAgencyNeedASafeHarborWaiver1",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "What is the status of the Safe Harbor Waiver request?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "The waiver request is being submitted for review with this submission of the MTW Supplement  (see Section D).",
+                            "value": "theWaiverRequestIsBeingSubmittedForReviewWithThisSubmissionOfTheMtwSupplementSeeSectionD",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "The waiver was previously approved.",
+                            "value": "theWaiverWasPreviouslyApproved",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aWhatIsTheStatusOfTheSafeHarborWaiverRequest1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwAgencyNeedASafeHarborWaiver1",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p>Please describe the extent to which the Safe Harbor Waiver is supporting the MTW agency's goal in implementing this MTW activity.</p>",
+                    "label": "Safe Harbor Request Description Label",
+                    "refreshOnChange": false,
+                    "key": "c1aSafeHarborRequestDescriptionLabel1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aWhatIsTheStatusOfTheSafeHarborWaiverRequest1",
+                        "eq": "theWaiverWasPreviouslyApproved"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Safe Harbor status description",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showWordCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxWords": 250
+                    },
+                    "key": "ca1SafeHarborStatusDescription1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aWhatIsTheStatusOfTheSafeHarborWaiverRequest1",
+                        "eq": "theWaiverWasPreviouslyApproved"
+                    },
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Does this MTW &nbsp;activity require a hardship policy?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content55",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Does this MTW activity require a hardship policy?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aDoesThisMtwActivityRequireAHardshipPolicy1",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "Upload Hardship Policy",
+                    "tableView": false,
+                    "webcam": false,
+                    "fileTypes": [
+                        {
+                            "label": "",
+                            "value": ""
+                        }
+                    ],
+                    "key": "ca1UploadHardshipPolicy1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy1",
+                        "eq": "yes"
+                    },
+                    "type": "file",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Does the hardship policy apply to more than this MTW activity?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content56",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy1",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Does the hardship policy apply to more than this MTW activity?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aDoesTheHardshipPolicyApplyToMoreThanThisMtwActivity1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy1",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p>Please list all of the applicable MTW activities. (Only upload hardship policy once when said policy applies to multiple MTW activities.)</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content57",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheHardshipPolicyApplyToMoreThanThisMtwActivity1",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Hardship Policy Applicable MTW Activities",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showWordCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxWords": 250
+                    },
+                    "key": "c1aHardshipPolicyApplicableMtwActivities1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheHardshipPolicyApplyToMoreThanThisMtwActivity1",
+                        "eq": "yes"
+                    },
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Has the MTW agency modified the hardship policy since the last submission of the MTW Supplement?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content58",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Has the MTW agency modified the hardship policy since the last submission of the MTW Supplement?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aHasTheMtwAgencyModifiedTheHardshipPolicySinceTheLastSubmissionOfTheMtwSupplement1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p>What considerations led the MTW agency to modify the hardship policy?</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content59",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aHasTheMtwAgencyModifiedTheHardshipPolicySinceTheLastSubmissionOfTheMtwSupplement1",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "What considerations led the MTW agency to modify the hardship policy?",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showWordCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxWords": 250
+                    },
+                    "key": "c1aWhatConsiderationsLedTheMtwAgencyToModifyTheHardshipPolicy1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aHasTheMtwAgencyModifiedTheHardshipPolicySinceTheLastSubmissionOfTheMtwSupplement1",
+                        "eq": "yes"
+                    },
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>How many hardship requests have been received associated with this activity in the past year?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content60",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy1",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Columns",
+                    "columns": [
+                        {
+                            "components": [
+                                {
+                                    "label": "Number of hardship requests associated with the activity in the past year",
+                                    "hideLabel": true,
+                                    "mask": false,
+                                    "spellcheck": true,
+                                    "tableView": false,
+                                    "delimiter": false,
+                                    "requireDecimal": false,
+                                    "inputFormat": "plain",
+                                    "key": "c1bNumberOfHardshipRequestsAssociatedWithTheActivityInThePastYear1",
+                                    "type": "number",
+                                    "input": true,
+                                    "hideOnChildrenHidden": false
+                                }
+                            ],
+                            "width": 2,
+                            "offset": 0,
+                            "push": 0,
+                            "pull": 0,
+                            "size": "md"
+                        },
+                        {
+                            "components": [],
+                            "width": 10,
+                            "offset": 0,
+                            "push": 0,
+                            "pull": 0,
+                            "size": "md"
+                        }
+                    ],
+                    "key": "columns4",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy1",
+                        "eq": "yes"
+                    },
+                    "type": "columns",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "key": "fieldset1",
+                    "customConditional": "show = data.c1bNumberOfHardshipRequestsAssociatedWithTheActivityInThePastYear1> 0;",
+                    "type": "fieldset",
+                    "label": "",
+                    "input": false,
+                    "tableView": false,
+                    "components": [
+                        {
+                            "html": "<p>How many hardship requests were approved?</p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "key": "content61",
+                            "conditional": {
+                                "show": true,
+                                "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy1",
+                                "eq": "yes"
+                            },
+                            "type": "content",
+                            "input": false,
+                            "tableView": false,
+                            "hideOnChildrenHidden": false
+                        },
+                        {
+                            "label": "Columns",
+                            "columns": [
+                                {
+                                    "components": [
+                                        {
+                                            "label": "How many hardship requests were approved?",
+                                            "hideLabel": true,
+                                            "mask": false,
+                                            "spellcheck": true,
+                                            "tableView": false,
+                                            "delimiter": false,
+                                            "requireDecimal": false,
+                                            "inputFormat": "plain",
+                                            "key": "c1aHowManyHardshipRequestsWereApproved1",
+                                            "type": "number",
+                                            "input": true,
+                                            "hideOnChildrenHidden": false
+                                        }
+                                    ],
+                                    "push": 0,
+                                    "pull": 0,
+                                    "size": "md",
+                                    "width": 2,
+                                    "offset": 0
+                                },
+                                {
+                                    "components": [],
+                                    "offset": 0,
+                                    "push": 0,
+                                    "pull": 0,
+                                    "size": "md",
+                                    "width": 10
+                                }
+                            ],
+                            "key": "columns5",
+                            "conditional": {
+                                "show": true,
+                                "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy1",
+                                "eq": "yes"
+                            },
+                            "type": "columns",
+                            "input": false,
+                            "tableView": false
+                        },
+                        {
+                            "html": "<p>How many hardship requests were denied?</p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "key": "content62",
+                            "conditional": {
+                                "show": true,
+                                "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy1",
+                                "eq": "yes"
+                            },
+                            "type": "content",
+                            "input": false,
+                            "tableView": false
+                        },
+                        {
+                            "label": "Columns",
+                            "columns": [
+                                {
+                                    "components": [
+                                        {
+                                            "label": "How many hardships requests were denied",
+                                            "hideLabel": true,
+                                            "mask": false,
+                                            "spellcheck": true,
+                                            "tableView": false,
+                                            "delimiter": false,
+                                            "requireDecimal": false,
+                                            "inputFormat": "plain",
+                                            "key": "c1aHowManyHardshipsRequestsWereDenied1",
+                                            "type": "number",
+                                            "input": true,
+                                            "hideOnChildrenHidden": false
+                                        }
+                                    ],
+                                    "offset": 0,
+                                    "push": 0,
+                                    "pull": 0,
+                                    "size": "md",
+                                    "width": 2
+                                },
+                                {
+                                    "components": [],
+                                    "offset": 0,
+                                    "push": 0,
+                                    "pull": 0,
+                                    "size": "md",
+                                    "width": 10
+                                }
+                            ],
+                            "key": "columns6",
+                            "conditional": {
+                                "show": true,
+                                "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy1",
+                                "eq": "yes"
+                            },
+                            "type": "columns",
+                            "input": false,
+                            "tableView": false
+                        },
+                        {
+                            "html": "<p>How many are pending?</p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "key": "content63",
+                            "conditional": {
+                                "show": true,
+                                "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy1",
+                                "eq": "yes"
+                            },
+                            "type": "content",
+                            "input": false,
+                            "tableView": false
+                        },
+                        {
+                            "label": "Columns",
+                            "columns": [
+                                {
+                                    "components": [
+                                        {
+                                            "label": "How many are pending?",
+                                            "hideLabel": true,
+                                            "mask": false,
+                                            "spellcheck": true,
+                                            "tableView": false,
+                                            "delimiter": false,
+                                            "requireDecimal": false,
+                                            "inputFormat": "plain",
+                                            "key": "c1aHowManyArePending1",
+                                            "type": "number",
+                                            "input": true,
+                                            "hideOnChildrenHidden": false
+                                        }
+                                    ],
+                                    "width": 2,
+                                    "offset": 0,
+                                    "push": 0,
+                                    "pull": 0,
+                                    "size": "md"
+                                },
+                                {
+                                    "components": [],
+                                    "offset": 0,
+                                    "push": 0,
+                                    "pull": 0,
+                                    "size": "md",
+                                    "width": 10
+                                }
+                            ],
+                            "key": "columns7",
+                            "conditional": {
+                                "show": true,
+                                "when": "c1aDoesThisMtwActivityRequireAHardshipPolicy1",
+                                "eq": "yes"
+                            },
+                            "type": "columns",
+                            "input": false,
+                            "tableView": false
+                        }
+                    ]
+                },
+                {
+                    "html": "<p><strong>Does the MTW activity require an impact analysis?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content64",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Does the MTW activity require an impact analysis ",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aDoesTheMtwActivityRequireAnImpactAnalysis1",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "Upload Impact Analysis",
+                    "tableView": false,
+                    "webcam": false,
+                    "fileTypes": [
+                        {
+                            "label": "",
+                            "value": ""
+                        }
+                    ],
+                    "key": "uploadImpactAnalysis1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheMtwActivityRequireAnImpactAnalysis1",
+                        "eq": "yes"
+                    },
+                    "type": "file",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Does the impact analysis apply to more than this MTW activity?</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content65",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheMtwActivityRequireAnImpactAnalysis1",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Does the impact analysis apply to more than this MTW activity?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "hideLabel": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "c1aDoesTheImpactAnalysisApplyToMoreThanThisMtwActivity1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheMtwActivityRequireAnImpactAnalysis1",
+                        "eq": "yes"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "html": "<p>Please list all of the applicable MTW activities. (Only upload impact analysis once when said impact analysis applies to multiple MTW activities.)</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content66",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheImpactAnalysisApplyToMoreThanThisMtwActivity1",
+                        "eq": "yes"
+                    },
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Please list all of the applicable MTW activities. (Only upload impact analysis once when said impact analysis applies to multiple MTW activities.)",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showWordCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxWords": 250
+                    },
+                    "key": "c1aImpactAnalysisApplicableMtwActivities1",
+                    "conditional": {
+                        "show": true,
+                        "when": "c1aDoesTheImpactAnalysisApplyToMoreThanThisMtwActivity1",
+                        "eq": "yes"
+                    },
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "html": "<p><strong>Based on the Fiscal Year goals listed in the activity's previous Fiscal Year's narrative, provide a description about what has been accomplished or changed during implementation.</strong></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content67",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "html": "<p>Provide a description about what has been accomplished or changed during the implementation.</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content68",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Provide a description about what has been accomplished or changed during the implementation.",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showWordCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxWords": 250
+                    },
+                    "key": "provideADescriptionAboutWhatHasBeenAccomplishedOrChangedDuringTheImplementation1",
+                    "type": "textarea",
+                    "input": true
+                }
+            ]
+        },
+        {
+            "title": "C.1.b Tiered Rent Custom Questions (HCV)",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": true,
+                "next": true
+            },
+            "collapsible": false,
+            "key": "c1bCustom",
+            "customConditional": "if (data.c1SurveyCombined && (data.c1SurveyCombined.b == \"planningChangesToExistingPolicy\" || data.c1SurveyCombined.b == \"planToImplementThisSubmissionYear\")){\n  show = true;\n} else if (data.c1SurveyHcv && (data.c1SurveyHcv.b == \"planningChangesToExistingPolicy\" || data.c1SurveyHcv.b == \"planToImplementThisSubmissionYear\")){\n  show = true;\n} else if (data.c1SurveyPh && (data.c1SurveyPh.b == \"planningChangesToExistingPolicy\" || data.c1SurveyPh.b == \"planToImplementThisSubmissionYear\")){\n  show = true;\n} else {\n  show = false;\n}",
+            "type": "panel",
+            "label": "C.1.b Tiered Rent Custom Questions (HCV)",
+            "components": [
+                {
+                    "html": "<p>Please describe how the income bands are structured.</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content4",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Text Area",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "tableView": true,
+                    "validate": {
+                        "maxLength": 500
+                    },
+                    "key": "textArea1",
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "label": "Please upload the tiered rent policy table that shows the income bands.",
+                    "tableView": false,
+                    "webcam": false,
+                    "fileTypes": [
+                        {
+                            "label": "",
+                            "value": ""
+                        }
+                    ],
+                    "key": "file1",
+                    "type": "file",
+                    "input": true
+                },
+                {
+                    "label": "What is the income basis for assigning households to income?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Total annual income",
+                            "value": "totalAnnualIncome",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Adjusted annual income",
+                            "value": "adjustedAnnualIncome",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "whatIsTheBasisForAssigningHouseholdsToIncome2",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "How is the total income defined?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "According to 24 CFR 5.609 just like non-MTW PHAs",
+                            "value": "accordingTo24Cfr5609JustLikeNonMtwPhAs",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "As per MTW activity 1.v. or 1.w. (Alternative Income Inclusions/Exclusions)",
+                            "value": "asPerMtwActivity1VOr1WAlternativeIncomeInclusionsExclusions",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "howIsAdjustedAnnualIncomeDefined4",
+                    "conditional": {
+                        "show": true,
+                        "when": "whatIsTheBasisForAssigningHouseholdsToIncome2",
+                        "eq": "totalAnnualIncome"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "How is adjusted annual income defined?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "As per 24 CFR 5.611 just like non-MTW PHAs",
+                            "value": "asPer24Cfr5611JustLikeNonMtwPhAs",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "As defined in MTW activity 1.r. or 1.s. (Elimination of Deductions (PH & HCV)",
+                            "value": "asDefinedInMtwActivity1ROr1SEliminationOfDeductionsPhHcv",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "As defined in MTW activity 1.t. or 1.u. (Standard Deductions (PH & HCV)",
+                            "value": "asDefinedInMtwActivity1TOr1UStandardDeductionsPhHcv",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "howIsAdjustedAnnualIncomeDefined3",
+                    "conditional": {
+                        "show": true,
+                        "when": "whatIsTheBasisForAssigningHouseholdsToIncome2",
+                        "eq": "adjustedAnnualIncome"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "How is the total annual income defined?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "According to 24 CFR 5.609 just like non-MTW PHAs",
+                            "value": "accordingTo24Cfr5609JustLikeNonMtwPhAs",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "As per the MTW activity 1.v. or 1.w. (Alternative Income Inclusions/Exclusions)",
+                            "value": "asPerTheMtwActivity1VOr1WAlternativeIncomeInclusionsExclusions",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "howIsAdjustedAnnualIncomeDefined5",
+                    "conditional": {
+                        "show": true,
+                        "when": "whatIsTheBasisForAssigningHouseholdsToIncome2",
+                        "eq": "adjustedAnnualIncome"
+                    },
+                    "type": "radio",
+                    "input": true
+                }
+            ],
+            "input": false,
+            "tableView": false
+        },
+        {
+            "title": "C.1.b Safe Harbor Waivers (HCV)",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": true,
+                "next": true
+            },
+            "collapsible": false,
+            "key": "c1bSafeHarbor",
+            "customConditional": "if (data.c1SurveyCombined && (data.c1SurveyCombined.b == \"planningChangesToExistingPolicy\" || data.c1SurveyCombined.b == \"planToImplementThisSubmissionYear\")){\n  show = true;\n} else if (data.c1SurveyHcv && (data.c1SurveyHcv.b == \"planningChangesToExistingPolicy\" || data.c1SurveyHcv.b == \"planToImplementThisSubmissionYear\")){\n  show = true;\n} else if (data.c1SurveyPh && (data.c1SurveyPh.b == \"planningChangesToExistingPolicy\" || data.c1SurveyPh.b == \"planToImplementThisSubmissionYear\")){\n  show = true;\n} else {\n  show = false;\n}",
+            "type": "panel",
+            "label": "C.1.b Safe Harbor Waivers (HCV)",
+            "input": false,
+            "tableView": false,
+            "components": [
+                {
+                    "html": "<p><span style=\"background-color:transparent;color:#000000;\"><strong>Safe Harbor Waivers seeking HUD Approval:</strong></span></p><p><span style=\"background-color:transparent;color:#000000;\">The MTW Operations Notice describes a simplified process for MTW agencies to implement MTW activities outside of the safe harbors described in Appendix I.&nbsp; For each Safe Harbor Waiver request, a document that includes the following information must be provided: (a) the name and number of the MTW Waiver and associated activity for which the MTW agency is seeking to expand the safe harbor, (b) the specific safe harbor and its implementing regulation, (c) the proposed MTW activity the MTW agency wishes to implement via this Safe Harbor Waiver, (d) a description of the local issue and why such an expansion is needed to implement the MTW activity, (e) an impact analysis, (f) a description of the hardship policy for the MTW activity, if applicable, and (g) a copy of all comments received at the public hearing along with the MTW agency’s&nbsp; description of how the comments were considered, as a required attachment to the MTW Supplement.</span></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "key": "content6",
+                    "type": "content",
+                    "input": false,
+                    "tableView": false
+                },
+                {
+                    "label": "Will the MTW agency submit request for approval of a Safe Harbor Waiver this year?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "No",
+                            "value": "no",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Yes",
+                            "value": "yes",
+                            "shortcut": ""
+                        }
+                    ],
+                    "key": "willTheMtwAgencySubmitRequestForApprovalOfASafeHarborWaiverThisYear1",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "Upload required information in a-g above for each Safe Harbor Waiver request.",
+                    "tableView": false,
+                    "webcam": false,
+                    "fileTypes": [
+                        {
+                            "label": "",
+                            "value": ""
+                        }
+                    ],
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "uploadRequiredInformationInAGAboveForEachSafeHarborWaiverRequest1",
+                    "type": "file",
+                    "input": true
+                }
+            ]
+        },
+        {
+            "title": "C.2 Payment Standards and Rent Reasonableness",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "key": "c2Panel",
+            "conditional": {
+                "show": true,
+                "when": "cPaymentStandardsAndRentReasonableness",
+                "eq": "true"
+            },
+            "type": "panel",
+            "label": "C.2 Payment Standards and Rent Reasonableness",
+            "tableView": false,
+            "input": false,
+            "components": [
+                {
+                    "label": "C2HCV",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "questions": [
+                        {
+                            "label": "a. Payment Standards- Small Area Fair Market Rents (HCV)",
+                            "value": "aPaymentStandardsSmallAreaFairMarketRentsHcv"
+                        },
+                        {
+                            "label": "b. Payment Standards- Fair Market Rents (HCV)",
+                            "value": "bPaymentStandardsFairMarketRentsHcv"
+                        },
+                        {
+                            "label": "c. Rent Reasonableness – Process (HCV)",
+                            "value": "cRentReasonablenessProcessHcv"
+                        },
+                        {
+                            "label": "d. Rent Reasonableness – Third-Party Requirement (HCV)",
+                            "value": "dRentReasonablenessThirdPartyRequirementHcv"
+                        }
+                    ],
+                    "values": [
+                        {
+                            "label": "Currently Implementing",
+                            "value": "currentlyImplementing"
+                        },
+                        {
+                            "label": "Plan to Implement this submission year",
+                            "value": "planToImplementThisSubmissionYear"
+                        },
+                        {
+                            "label": "Discontinuing this submission year",
+                            "value": "discontinuingThisSubmissionYear"
+                        }
+                    ],
+                    "calculateValue": "console.log(\"component *** \" + JSON.stringify(component));",
+                    "key": "c2surveyCombined",
+                    "conditional": {
+                        "show": true,
+                        "when": "phaProgramType",
+                        "eq": "Combined"
+                    },
+                    "type": "survey",
+                    "input": true
+                }
+            ]
+        },
+        {
+            "title": "C.3 Reexaminations",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "tableView": false,
+            "key": "c3Panel",
+            "conditional": {
+                "show": true,
+                "when": "cReexaminations",
+                "eq": "true"
+            },
+            "type": "panel",
+            "label": "C.3 Reexaminations",
+            "input": false,
+            "components": [
+                {
+                    "label": "C1Combined",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "questions": [
+                        {
+                            "label": "a. Alternative Reexamination Schedule for Households (PH)",
+                            "value": "a"
+                        },
+                        {
+                            "label": "b. Alternative Reexamination Schedule for Households (HCV)",
+                            "value": "b"
+                        },
+                        {
+                            "label": "c. Self-Certification of Assets (PH)",
+                            "value": "c"
+                        },
+                        {
+                            "label": "d. Self-Certification of Assets (HCV)",
+                            "value": "d"
+                        }
+                    ],
+                    "values": [
+                        {
+                            "label": "Currently Implementing",
+                            "value": "currentlyImplementing"
+                        },
+                        {
+                            "label": "Plan to Implement this submission year",
+                            "value": "planToImplementThisSubmissionYear"
+                        },
+                        {
+                            "label": "Discontinuing this submission year",
+                            "value": "discontinuingThisSubmissionYear"
+                        }
+                    ],
+                    "calculateValue": "console.log(\"component *** \" + JSON.stringify(component));",
+                    "key": "c3surveyCombined",
+                    "conditional": {
+                        "show": true,
+                        "when": "phaProgramType",
+                        "eq": "Combined"
+                    },
+                    "type": "survey",
+                    "input": true
+                },
+                {
+                    "label": "C1Combined",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "questions": [
+                        {
+                            "label": "b. Alternative Reexamination Schedule for Households (HCV)",
+                            "value": "b"
+                        },
+                        {
+                            "label": "d. Self-Certification of Assets (HCV)",
+                            "value": "d"
+                        }
+                    ],
+                    "values": [
+                        {
+                            "label": "Currently Implementing",
+                            "value": "currentlyImplementing"
+                        },
+                        {
+                            "label": "Plan to Implement this submission year",
+                            "value": "planToImplementThisSubmissionYear"
+                        },
+                        {
+                            "label": "Discontinuing this submission year",
+                            "value": "discontinuingThisSubmissionYear"
+                        }
+                    ],
+                    "calculateValue": "console.log(\"component *** \" + JSON.stringify(component));",
+                    "key": "c3surveyHcv",
+                    "conditional": {
+                        "show": true,
+                        "when": "phaProgramType",
+                        "eq": "HCV"
+                    },
+                    "type": "survey",
+                    "input": true
+                },
+                {
+                    "label": "C1Combined",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "questions": [
+                        {
+                            "label": "a. Alternative Reexamination Schedule for Households (PH)",
+                            "value": "a"
+                        },
+                        {
+                            "label": "c. Self-Certification of Assets (PH)",
+                            "value": "c"
+                        }
+                    ],
+                    "values": [
+                        {
+                            "label": "Currently Implementing",
+                            "value": "currentlyImplementing"
+                        },
+                        {
+                            "label": "Plan to Implement this submission year",
+                            "value": "planToImplementThisSubmissionYear"
+                        },
+                        {
+                            "label": "Discontinuing this submission year",
+                            "value": "discontinuingThisSubmissionYear"
+                        }
+                    ],
+                    "calculateValue": "console.log(\"component *** \" + JSON.stringify(component));",
+                    "key": "c3SurveyPh",
+                    "conditional": {
+                        "show": true,
+                        "when": "phaProgramType",
+                        "eq": "PH"
+                    },
+                    "type": "survey",
+                    "input": true
+                }
+            ]
+        }
+    ],
+    "revisions": "current",
+    "_vid": 2,
+    "title": "Moving to Work Supplement Form",
+    "display": "wizard",
+    "access": [
+        {
+            "roles": [],
+            "type": "create_own"
+        },
+        {
+            "roles": [],
+            "type": "create_all"
+        },
+        {
+            "roles": [],
+            "type": "read_own"
+        },
+        {
+            "roles": [
+                "5f6a32fb7974387e12dc685a",
+                "5f6a32fb797438eb59dc685b",
+                "5f6a32fb797438b66edc685c"
+            ],
+            "type": "read_all"
+        },
+        {
+            "roles": [],
+            "type": "update_own"
+        },
+        {
+            "roles": [],
+            "type": "update_all"
+        },
+        {
+            "roles": [],
+            "type": "delete_own"
+        },
+        {
+            "roles": [],
+            "type": "delete_all"
+        },
+        {
+            "roles": [],
+            "type": "team_read"
+        },
+        {
+            "roles": [],
+            "type": "team_write"
+        },
+        {
+            "roles": [],
+            "type": "team_admin"
+        }
+    ],
+    "submissionAccess": [
+        {
+            "roles": [],
+            "type": "create_own"
+        },
+        {
+            "roles": [],
+            "type": "create_all"
+        },
+        {
+            "roles": [],
+            "type": "read_own"
+        },
+        {
+            "roles": [],
+            "type": "read_all"
+        },
+        {
+            "roles": [],
+            "type": "update_own"
+        },
+        {
+            "roles": [],
+            "type": "update_all"
+        },
+        {
+            "roles": [],
+            "type": "delete_own"
+        },
+        {
+            "roles": [],
+            "type": "delete_all"
+        },
+        {
+            "roles": [],
+            "type": "team_read"
+        },
+        {
+            "roles": [],
+            "type": "team_write"
+        },
+        {
+            "roles": [],
+            "type": "team_admin"
+        }
+    ],
+    "controller": "",
+    "properties": {},
+    "settings": {},
+    "name": "movingToWorkSupplementForm",
+    "path": "mtwform",
+    "project": "5f6a32fb7974387303dc6859",
+    "created": "2020-09-22T17:56:52.224Z",
+    "modified": "2020-10-05T16:18:22.494Z",
+    "machineName": "dev:movingToWorkSupplementForm"
+}

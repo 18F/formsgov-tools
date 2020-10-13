@@ -1,0 +1,937 @@
+{
+    "components": [
+        {
+            "title": "Start",
+            "theme": "primary",
+            "breadcrumbClickable": false,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "tableView": false,
+            "key": "startPanel",
+            "type": "panel",
+            "label": "Start",
+            "input": false,
+            "components": [
+                {
+                    "title": "Purpose",
+                    "breadcrumbClickable": true,
+                    "buttonSettings": {
+                        "previous": true,
+                        "cancel": true,
+                        "next": true
+                    },
+                    "collapsible": false,
+                    "tableView": false,
+                    "key": "StartPurpose",
+                    "type": "panel",
+                    "label": "Purpose",
+                    "input": false,
+                    "components": [
+                        {
+                            "html": "<p>The Moving to Work (MTW) Supplement to the Annual PHA Plan informs HUD, families served by the PHA, and members of the public, about the MTW Waivers and associated activities that the MTW agency seeks to implement in the coming Fiscal Year and updates the status of MTW activities that have been previously approved. It also provides information about Safe Harbor Waivers, Agency-Specific Waivers, compliance with MTW statutory requirements, and evaluations. The MTW Supplement does not replace the PHA Plan. MTW agencies must continue to submit the applicable PHA Plan. MTW agencies that are not required to submit annual PHA Plans under the Housing and Economic Recovery Act of 2008 (HERA) must submit the MTW Supplement annually, in addition to holding public hearings, obtaining board approval, and consulting with Resident Advisory Boards (RABs) and tenant associations, as applicable, on planned MTW activities.</p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "tableView": false,
+                            "key": "content",
+                            "type": "content",
+                            "input": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Applicability",
+                    "breadcrumbClickable": true,
+                    "buttonSettings": {
+                        "previous": true,
+                        "cancel": true,
+                        "next": true
+                    },
+                    "collapsible": false,
+                    "tableView": false,
+                    "key": "startApplicability",
+                    "type": "panel",
+                    "label": "Applicability",
+                    "input": false,
+                    "components": [
+                        {
+                            "html": "<p><span style=\"background-color:transparent;color:#000000;\">Form HUD-50075-MTW is to be completed annually by all MTW agencies brought onto the MTW Demonstration Program pursuant to Section 239 of the Fiscal Year 2016 Appropriations Act, P.L. 114-113 (2016 MTW Expansion Statute) or existing MTW agencies that chose to follow the requirements of the MTW Operations Notice.</span></p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "tableView": false,
+                            "key": "content1",
+                            "type": "content",
+                            "input": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Definitions",
+                    "breadcrumbClickable": true,
+                    "buttonSettings": {
+                        "previous": true,
+                        "cancel": true,
+                        "next": true
+                    },
+                    "collapsible": false,
+                    "tableView": false,
+                    "key": "startDefinitions",
+                    "type": "panel",
+                    "label": "Definitions",
+                    "input": false,
+                    "components": [
+                        {
+                            "html": "<p style=\"margin-left:9pt;\"><span style=\"background-color:transparent;color:#000000;\">All terms used in this MTW Supplement are consistent with the definitions stated in the MTW Operations Notice, including:</span></p><ol><li><span style=\"background-color:transparent;color:#000000;\"><strong>Local, Non-traditional Activities</strong> (LNT) – Those MTW activities that use MTW funding flexibility outside of the Housing Choice Voucher (HCV) and public housing programs established in Sections 8 and 9 of the U.S. Housing Act of 1937.</span></li><li><span style=\"background-color:transparent;color:#000000;\"><strong>Safe Harbors</strong> – The additional requirements, beyond those specified in the MTW activity description itself found in the MTW Operations Notice, following each activity description, that the MTW agency must follow in implementing MTW activities.</span></li><li><span style=\"background-color:transparent;color:#000000;\"><strong>Substantially the Same Requirement</strong> – A statutory MTW requirement that MTW agencies must continue to assist substantially the same total number of eligible low-income families as would have been served absent the MTW demonstration.</span></li></ol>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "tableView": false,
+                            "key": "content2",
+                            "type": "content",
+                            "input": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Explanatory Note",
+            "theme": "primary",
+            "breadcrumbClickable": false,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "key": "startPanel1",
+            "type": "panel",
+            "label": "Start",
+            "tableView": false,
+            "input": false,
+            "components": [
+                {
+                    "title": "Information to be Collected for MTW Activities",
+                    "breadcrumbClickable": true,
+                    "buttonSettings": {
+                        "previous": true,
+                        "cancel": true,
+                        "next": true
+                    },
+                    "collapsible": false,
+                    "key": "StartPurpose1",
+                    "type": "panel",
+                    "label": "Purpose",
+                    "tableView": false,
+                    "input": false,
+                    "components": [
+                        {
+                            "html": "<p><span style=\"background-color:transparent;color:#000000;\">The Moving to Work (MTW) Supplement collects information about policies implemented by MTW expansion agencies.&nbsp; MTW agencies use it to communicate their plans with residents and community stakeholders through required public comment processes, and HUD uses the information collected to monitor and evaluate the MTW demonstration program.&nbsp;</span></p><p><span style=\"background-color:transparent;color:#000000;\">The MTW Supplement asks for information about each of the MTW Waivers and associated activities that are made possible by the MTW Operations Notice, Safe Harbor Waivers and Agency-Specific Waivers, and a few other types of information.&nbsp; MTW agencies will fill in information/data through an online form and the information collected will be stored in a database so that it can be analyzed by HUD. The approved forms will be posted to the MTW website for viewing by the public.&nbsp;</span></p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "key": "content51",
+                            "type": "content",
+                            "tableView": false,
+                            "input": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Sections of the MTW Supplement",
+                    "breadcrumbClickable": true,
+                    "buttonSettings": {
+                        "previous": true,
+                        "cancel": true,
+                        "next": true
+                    },
+                    "collapsible": false,
+                    "key": "startApplicability1",
+                    "type": "panel",
+                    "label": "Applicability",
+                    "tableView": false,
+                    "input": false,
+                    "components": [
+                        {
+                            "html": "<p>A. PHA Information</p><p>B. Narrative</p><p>C. MTW Waivers and Associated MTW Activities</p><p>D. Safe Harbor Waivers</p><p>E. Agency-Specific Waivers</p><p>F. MTW Statutory Requirements</p><p>G. Public Comments</p><p>H. Evaluations</p><p>I. MTW Certifications of Compliance</p>",
+                            "label": "Content",
+                            "refreshOnChange": false,
+                            "key": "content52",
+                            "type": "content",
+                            "tableView": false,
+                            "input": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "A. PHA Information",
+            "theme": "primary",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "tableView": false,
+            "key": "aPanel",
+            "type": "panel",
+            "label": "A. PHA Information",
+            "components": [
+                {
+                    "label": "PHA Code:",
+                    "widget": "html5",
+                    "tableView": true,
+                    "dataSrc": "json",
+                    "data": {
+                        "values": [
+                            {
+                                "label": "",
+                                "value": ""
+                            }
+                        ],
+                        "json": [
+                            {
+                                "phaCode": "AL123",
+                                "phaName": "Alabama PHA 123",
+                                "phaMtwFiscalMonth": "10",
+                                "phaProgramType": "PH",
+                                "mtwCohortNum": "1"
+                            },
+                            {
+                                "phaCode": "MD456",
+                                "phaName": "Maryland PHA 456",
+                                "phaMtwFiscalMonth": "01",
+                                "phaProgramType": "HCV",
+                                "mtwCohortNum": "2"
+                            },
+                            {
+                                "phaCode": "VA789",
+                                "phaName": "Virginia PHA 789",
+                                "phaMtwFiscalMonth": "04",
+                                "phaProgramType": "Combined",
+                                "mtwCohortNum": "2"
+                            },
+                            {
+                                "phaCode": "WY112",
+                                "phaName": "Wyoming PHA 112",
+                                "phaMtwFiscalMonth": "07",
+                                "phaProgramType": "PH",
+                                "mtwCohortNum": "3"
+                            },
+                            {
+                                "phaCode": "WY321",
+                                "phaName": "Wyoming PHA 321",
+                                "phaMtwFiscalMonth": "10",
+                                "phaProgramType": "HCV",
+                                "mtwCohortNum": "3"
+                            },
+                            {
+                                "phaCode": "WY322",
+                                "phaName": "Wyoming PHA 322",
+                                "phaMtwFiscalMonth": "04",
+                                "phaProgramType": "Combined",
+                                "mtwCohortNum": "4"
+                            }
+                        ]
+                    },
+                    "template": "<span>{{ item.phaCode }}</span>",
+                    "selectThreshold": 0.3,
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "aPhaCode",
+                    "logic": [
+                        {
+                            "name": "PassCohortNumber",
+                            "trigger": {
+                                "type": "javascript",
+                                "javascript": "// console.log(\"row *** \" + JSON.stringify(row));\n// console.log(\"data *** \" + JSON.stringify(data));\n// console.log(\"component *** \" + JSON.stringify(component));"
+                            },
+                            "actions": []
+                        }
+                    ],
+                    "type": "select",
+                    "indexeddb": {
+                        "filter": {}
+                    },
+                    "input": true
+                },
+                {
+                    "label": "PHA Program Type:",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "disabled": true,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Public Housing (PH) only",
+                            "value": "PH",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Housing Choice Voucher (HCV) only",
+                            "value": "HCV",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Combined",
+                            "value": "Combined",
+                            "shortcut": ""
+                        }
+                    ],
+                    "clearOnHide": false,
+                    "calculateValue": "value = data.aPhaCode.phaProgramType;",
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "aPhaProgramType",
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "PHA Name:",
+                    "disabled": true,
+                    "tableView": true,
+                    "clearOnHide": false,
+                    "calculateValue": "value = data.aPhaCode.phaName;",
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "aPhaName",
+                    "type": "textfield",
+                    "input": true
+                },
+                {
+                    "label": "MTW Cohort Number:",
+                    "disabled": true,
+                    "tableView": true,
+                    "inputFormat": "html",
+                    "clearOnHide": false,
+                    "calculateValue": "value = data.aPhaCode.mtwCohortNum;",
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "aMtwCohortNumber",
+                    "type": "textfield",
+                    "input": true
+                },
+                {
+                    "label": "PHA MTW Supplement for Fiscal Year Beginning:",
+                    "format": "MM/dd/yyyy",
+                    "disabled": true,
+                    "tableView": false,
+                    "enableMinDateInput": false,
+                    "datePicker": {
+                        "disableWeekends": false,
+                        "disableWeekdays": false
+                    },
+                    "enableMaxDateInput": false,
+                    "enableTime": false,
+                    "clearOnHide": false,
+                    "calculateValue": "value = moment().year()+ \"-\" + data.aPhaCode.phaMtwFiscalMonth + \"-01T06:00:00.000Z\";",
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "aPhaMtwSupplementForFiscalYearBeginning",
+                    "type": "datetime",
+                    "input": true,
+                    "widget": {
+                        "type": "calendar",
+                        "displayInTimezone": "viewer",
+                        "locale": "en",
+                        "useLocaleSettings": false,
+                        "allowInput": true,
+                        "mode": "single",
+                        "enableTime": false,
+                        "noCalendar": false,
+                        "format": "MM/dd/yyyy",
+                        "hourIncrement": 1,
+                        "minuteIncrement": 1,
+                        "time_24hr": false,
+                        "minDate": null,
+                        "disableWeekends": false,
+                        "disableWeekdays": false,
+                        "maxDate": null
+                    }
+                },
+                {
+                    "label": "MTW Supplement Submission Type:",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Annual Submission",
+                            "value": "annualSubmission",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Amended Annual Submission",
+                            "value": "amendedAnnualSubmission",
+                            "shortcut": ""
+                        }
+                    ],
+                    "calculateValue": "console.log(\"Submission *** \" + JSON.stringify(submission));",
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "aMtwSupplementSubmissionType",
+                    "type": "radio",
+                    "input": true
+                }
+            ],
+            "input": false
+        },
+        {
+            "title": "B. Narrative",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "tableView": false,
+            "key": "bPanel",
+            "type": "panel",
+            "label": "B. Narrative",
+            "input": false,
+            "components": [
+                {
+                    "html": "<p><span style=\"background-color:transparent;color:#000000;\"><strong>MTW Supplement Narrative.</strong></span></p><p><span style=\"background-color:transparent;color:#000000;\">The narrative provides the MTW agency with an opportunity to explain to the public, including the families that is serves, its MTW plans for the fiscal year and its short and long-term goals.&nbsp;</span></p><p><span style=\"background-color:transparent;color:#000000;\">The MTW agency should provide a description of how it seeks to further the three MTW statutory objectives during the coming Fiscal Year. Those three MTW statutory objectives are: (1) to reduce cost and achieve greater cost effectiveness in federal expenditures; (2) to give incentives to families with children whose heads of household are either working, seeking work, or are participating in job training, educational or other programs that assist in obtaining employment and becoming economically self-sufficient; and (3) to increase housing choices for low-income families.</span></p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "tableView": false,
+                    "key": "bNarrativeDescription",
+                    "type": "content",
+                    "input": false
+                },
+                {
+                    "label": "Narrative",
+                    "autoExpand": false,
+                    "hideLabel": true,
+                    "showCharCount": true,
+                    "tableView": true,
+                    "validate": {
+                        "required": true,
+                        "maxLength": 5000
+                    },
+                    "key": "bNarrative",
+                    "type": "textarea",
+                    "input": true
+                }
+            ]
+        },
+        {
+            "title": "C. MTW Waivers and Associated Activities",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "tableView": false,
+            "key": "cPanel",
+            "type": "panel",
+            "label": "C. MTW Waivers and Associated Activities",
+            "input": false,
+            "components": [
+                {
+                    "html": "<p>Please select the MTW activities the PHA proposes to use this plan year:</p>",
+                    "label": "Content",
+                    "refreshOnChange": false,
+                    "tableView": false,
+                    "key": "cMtwActivitiesDescription",
+                    "type": "content",
+                    "input": false
+                },
+                {
+                    "label": "1.  Tenant Rent Policies",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cTenantRentPolicies",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "2.  Payment Standards and Rent Reasonableness (SMG - HCV & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cPaymentStandardsAndRentReasonableness",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "PH"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "3. Reexaminations",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cReexaminations",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "4. Landlord Leasing Incentives  (SMG-HCV & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cLandlordLeasingIncentives",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "PH"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "5. Housing Quality Standards (HQS) (SMG - HCV & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cHousingQualityStandardsHqs",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "PH"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "6. Short-Term Assistance",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cShortTermAssistance",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "7. Term-Limited Assistance",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cTermLimitedAssistance",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "8. Increase Elderly Age",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cIncreaseElderlyAge",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "9. Project-Based Voucher Program Flexibilities (SMG - HCV & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cProjectBasedVoucherProgramFlexibilities",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "PH"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "10. Family Self-Sufficiency Program with MTW Flexibility",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cFamilySelfSufficiencyProgramWithMtwFlexibility",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "11. MTW Self-Sufficiency Program",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cMtwSelfSufficiencyProgram",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "12. Work Requirement",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cWorkRequirement",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "13. Use of Public Housing as an Incentive for Economic Progress (SMG - PH & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cUseOfPublicHousingAsAnIncentiveForEconomicProgressSmgPhCombined",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "HCV"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "14. Moving on Policy",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cMovingOnPolicy",
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "15. Acquisition without Prior HUD Approval (SMG - PH & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cAcquisitionWithoutPriorHudApprovalSmgPh",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "HCV"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "16. Deconcentration of Poverty in Public Housing Policy (SMG - PH & Combined)",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cDeconcentrationOfPovertyInPublicHousingPolicySmgPhCombined",
+                    "conditional": {
+                        "show": false,
+                        "when": "aPhaProgramType",
+                        "eq": "HCV"
+                    },
+                    "type": "checkbox",
+                    "input": true
+                },
+                {
+                    "label": "17. Local, Non-Traditional Activities",
+                    "tableView": false,
+                    "defaultValue": false,
+                    "key": "cLocalNonTraditionalActivities",
+                    "type": "checkbox",
+                    "input": true
+                }
+            ]
+        },
+        {
+            "title": "C.1 Tenant Rent Policies",
+            "breadcrumbClickable": true,
+            "buttonSettings": {
+                "previous": true,
+                "cancel": false,
+                "next": true
+            },
+            "collapsible": false,
+            "tableView": false,
+            "key": "c1Panel",
+            "conditional": {
+                "show": true,
+                "when": "cTenantRentPolicies",
+                "eq": "true"
+            },
+            "type": "panel",
+            "label": "C.1 Tenant Rent Policies",
+            "input": false,
+            "components": [
+                {
+                    "label": "C1Combined",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "questions": [
+                        {
+                            "label": "a. Tiered Rent (PH)",
+                            "value": "a"
+                        },
+                        {
+                            "label": "b. Tiered Rent (HCV)",
+                            "value": "b"
+                        },
+                        {
+                            "label": "c. Stepped Rent (PH)",
+                            "value": "c"
+                        },
+                        {
+                            "label": "d. Stepped Rent (HCV)",
+                            "value": "d"
+                        },
+                        {
+                            "label": "e. Minimum Rent (PH)",
+                            "value": "e"
+                        },
+                        {
+                            "label": "f. Minimum Rent (HCV)",
+                            "value": "f"
+                        },
+                        {
+                            "label": "g. Total Tenant Payment as a Percentage of Gross Income (PH)",
+                            "value": "g"
+                        },
+                        {
+                            "label": "h. Total Tenant Payment as a Percentage of Gross Income (HCV)",
+                            "value": "h"
+                        },
+                        {
+                            "label": "i. Alternative Utility Allowance (PH)",
+                            "value": "i"
+                        },
+                        {
+                            "label": "j. Alternative Utility Allowance (HCV)",
+                            "value": "j"
+                        },
+                        {
+                            "label": "k. Fixed Rents (PH)",
+                            "value": "k"
+                        },
+                        {
+                            "label": "l. Fixed Subsidy (HCV)",
+                            "value": "l"
+                        },
+                        {
+                            "label": "m. Utility Reimbursements (PH)",
+                            "value": "m"
+                        },
+                        {
+                            "label": "n. Utility Reimbursements (HCV)",
+                            "value": "n"
+                        },
+                        {
+                            "label": "o. Initial Rent Burden (HCV)",
+                            "value": "o"
+                        },
+                        {
+                            "label": "p. Imputed Income (PH)",
+                            "value": "p"
+                        },
+                        {
+                            "label": "q. Imputed Income (HCV)",
+                            "value": "q"
+                        },
+                        {
+                            "label": "r. Elimination of Deduction(s) (PH)",
+                            "value": "r"
+                        },
+                        {
+                            "label": "s. Elimination of Deduction(s) (HCV)",
+                            "value": "s"
+                        },
+                        {
+                            "label": "t. Standard Deductions (PH)",
+                            "value": "t"
+                        },
+                        {
+                            "label": "u. Standard Deductions (HCV)",
+                            "value": "u"
+                        },
+                        {
+                            "label": "v. Alternative Income Inclusions/Exclusions (PH)",
+                            "value": "v"
+                        },
+                        {
+                            "label": "w. Alternative Income Inclusions/Exclusions (HCV)",
+                            "value": "w"
+                        }
+                    ],
+                    "values": [
+                        {
+                            "label": "Discontinuing this submission year",
+                            "value": "discontinuingThisSubmissionYear"
+                        },
+                        {
+                            "label": "Plan to Implement this submission year",
+                            "value": "planToImplementThisSubmissionYear"
+                        },
+                        {
+                            "label": "In effect no planned changes",
+                            "value": "inEffectNoPlannedChanges"
+                        },
+                        {
+                            "label": "Planning changes to existing policy",
+                            "value": "planningChangesToExistingPolicy"
+                        }
+                    ],
+                    "calculateValue": "console.log(\"component *** \" + JSON.stringify(component));",
+                    "key": "c1SurveyCombined",
+                    "conditional": {
+                        "show": true,
+                        "when": "phaProgramType",
+                        "eq": "Combined"
+                    },
+                    "type": "survey",
+                    "input": true
+                },
+                {
+                    "label": "C1HCV",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "questions": [
+                        {
+                            "label": "b. Tiered Rent (HCV)",
+                            "value": "b"
+                        },
+                        {
+                            "label": "d. Stepped Rent (HCV)",
+                            "value": "d"
+                        },
+                        {
+                            "label": "f. Minimum Rent (HCV)",
+                            "value": "f"
+                        },
+                        {
+                            "label": "h. Total Tenant Payment as a Percentage of Gross Income (HCV)",
+                            "value": "h"
+                        },
+                        {
+                            "label": "j. Alternative Utility Allowance (HCV)",
+                            "value": "j"
+                        },
+                        {
+                            "label": "l. Fixed Subsidy (HCV)",
+                            "value": "l"
+                        },
+                        {
+                            "label": "n. Utility Reimbursements (HCV)",
+                            "value": "n"
+                        },
+                        {
+                            "label": "o. Initial Rent Burden (HCV)",
+                            "value": "o"
+                        },
+                        {
+                            "label": "q. Imputed Income (HCV)",
+                            "value": "q"
+                        },
+                        {
+                            "label": "s. Elimination of Deduction(s) (HCV)",
+                            "value": "s"
+                        },
+                        {
+                            "label": "u. Standard Deductions (HCV)",
+                            "value": "u"
+                        },
+                        {
+                            "label": "w. Alternative Income Inclusions/Exclusions (HCV)",
+                            "value": "w"
+                        }
+                    ],
+                    "values": [
+                        {
+                            "label": "Discontinuing this submission year",
+                            "value": "discontinuingThisSubmissionYear"
+                        },
+                        {
+                            "label": "Plan to Implement this submission year",
+                            "value": "planToImplementThisSubmissionYear"
+                        },
+                        {
+                            "label": "In effect no planned changes",
+                            "value": "inEffectNoPlannedChanges"
+                        },
+                        {
+                            "label": "Planning changes to existing policy",
+                            "value": "planningChangesToExistingPolicy"
+                        }
+                    ],
+                    "calculateValue": "console.log(\"component *** \" + JSON.stringify(component));",
+                    "key": "c1SurveyHcv",
+                    "conditional": {
+                        "show": true,
+                        "when": "phaProgramType",
+                        "eq": "HCV"
+                    },
+                    "type": "survey",
+                    "input": true
+                },
+                {
+                    "label": "C1PH",
+                    "hideLabel": true,
+                    "tableView": false,
+                    "questions": [
+                        {
+                            "label": "a. Tiered Rent (PH)",
+                            "value": "a"
+                        },
+                        {
+                            "label": "c. Stepped Rent (PH)",
+                            "value": "c"
+                        },
+                        {
+                            "label": "e. Minimum Rent (PH)",
+                            "value": "e"
+                        },
+                        {
+                            "label": "g. Total Tenant Payment as a Percentage of Gross Income (PH)",
+                            "value": "g"
+                        },
+                        {
+                            "label": "i. Alternative Utility Allowance (PH)",
+                            "value": "i"
+                        },
+                        {
+                            "label": "k. Fixed Rents (PH)",
+                            "value": "k"
+                        },
+                        {
+                            "label": "m. Utility Reimbursements (PH)",
+                            "value": "m"
+                        },
+                        {
+                            "label": "p. Imputed Income (PH)",
+                            "value": "p"
+                        },
+                        {
+                            "label": "r. Elimination of Deduction(s) (PH)",
+                            "value": "r"
+                        },
+                        {
+                            "label": "t. Standard Deductions (PH)",
+                            "value": "t"
+                        },
+                        {
+                            "label": "v. Alternative Income Inclusions/Exclusions (PH)",
+                            "value": "v"
+                        }
+                    ],
+                    "values": [
+                        {
+                            "label": "Discontinuing this submission year",
+                            "value": "discontinuingThisSubmissionYear"
+                        },
+                        {
+                            "label": "Plan to Implement this submission year",
+                            "value": "planToImplementThisSubmissionYear"
+                        },
+                        {
+                            "label": "In effect no planned changes",
+                            "value": "inEffectNoPlannedChanges"
+                        },
+                        {
+                            "label": "Planning changes to existing policy",
+                            "value": "planningChangesToExistingPolicy"
+                        }
+                    ],
+                    "calculateValue": "console.log(\"component *** \" + JSON.stringify(component));",
+                    "key": "c1SurveyPh",
+                    "conditional": {
+                        "show": true,
+                        "when": "phaProgramType",
+                        "eq": "PH"
+                    },
+                    "type": "survey",
+                    "input": true
+                }
+            ]
+        }
+    ],
+    "modified": "2020-10-05T16:18:22.494Z",
+    "title": "Moving to Work Supplement Form"
+}

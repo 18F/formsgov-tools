@@ -12,29 +12,18 @@ The FormService Tools GitHub Repository contains various tools used to help duri
 
 In this repository, there are many simple tools that aid in the development and testing of FormService functionality.  Following is a brief description of each tool along with execution instructions.
 
-### ApiKeys
+### Form API Keys
 
-The ApiKeys tool is a simple webpage that allows the user to input a Form.io form definition path and displays the API Key names for the fields on each page of the form.
-
-To run:
-* Pull down the apiKeys directory
-* Open the "ApiKeys.html" page in a browser
-* Input the form definition path
-
-That's it!
-
-### cmdApiKeys
-
-The cmdApiKeys tool is a simple command line tool that allows the user to input a Form.io form definition path, and a local output file path and outputs the API Key names for the fields on each page of the form.
+The FormApiKeys tool is a simple command line tool that allows the user to input a Form.io form definition path, an authentication token for the form definition server, and a local output file path and outputs the API Key names for the fields on each page of the form.
 
 To run:
-* Pull down the cmdApiKeys directory
-* Run the following command, replacing 'form_path' and 'output_path' with appropriate names
+* Pull down the FormApiKeys directory
+* Run the following command, replacing 'form_path', 'auth_key', and 'output_path' with appropriate values
 
-C:\dev\cmdApiKeys>gradlew run --args="form_path output_path"
+C:\dev\FormApiKeys>gradlew run --args="form_path auth_key output_path"
 
-Here is an example call:
+Here is an example call (auth key not provided):
 
-C:\dev\cmdApiKeys>gradlew run --args="https://dev-portal.fs.gsa.gov/dev/mtwform apiKeys.txt"
+C:\dev\FormApiKeys>gradlew run --args="https://dev-portal.fs.gsa.gov/dev/mtwform xxxxxxxxxxxxxxxxx apiKeys.txt"
 
-When the tool completes, the apiKeys.txt file should be in the current directory.  The file will contain the names of the API components by page. 
+When the tool completes, the apiKeys.txt file should be in the current directory.  The file will contain the names of the API components (and their component types) by page.

@@ -1,0 +1,214 @@
+Form Title: Moving to Work Supplement Form
+Last Modified: 2020-10-05T16:18:22.494Z
+
+Page 1: Start
+	* startPanel		panel
+		* StartPurpose		panel
+			* content		content
+		* startApplicability		panel
+			* content1		content
+		* startDefinitions		panel
+			* content2		content
+
+Page 2: Explanatory Note
+	* startPanel1		panel
+		* StartPurpose1		panel
+			* content51		content
+		* startApplicability1		panel
+			* content52		content
+
+Page 3: A. PHA Information
+	* aPanel		panel
+		* aPhaCode		select
+		* aPhaProgramType		radio
+		* aPhaName		textfield
+		* aMtwCohortNumber		textfield
+		* aPhaMtwSupplementForFiscalYearBeginning		datetime
+		* aMtwSupplementSubmissionType		radio
+
+Page 4: B. Narrative
+	* bPanel		panel
+		* bNarrativeDescription		content
+		* bNarrative		textarea
+
+Page 5: C. MTW Waivers and Associated Activities
+	* cPanel		panel
+		* cMtwActivitiesDescription		content
+		* cTenantRentPolicies		checkbox
+		* cPaymentStandardsAndRentReasonableness		checkbox
+		* cReexaminations		checkbox
+		* cLandlordLeasingIncentives		checkbox
+		* cHousingQualityStandardsHqs		checkbox
+		* cShortTermAssistance		checkbox
+		* cTermLimitedAssistance		checkbox
+		* cIncreaseElderlyAge		checkbox
+		* cProjectBasedVoucherProgramFlexibilities		checkbox
+		* cFamilySelfSufficiencyProgramWithMtwFlexibility		checkbox
+		* cMtwSelfSufficiencyProgram		checkbox
+		* cWorkRequirement		checkbox
+		* cUseOfPublicHousingAsAnIncentiveForEconomicProgressSmgPhCombined		checkbox
+		* cMovingOnPolicy		checkbox
+		* cAcquisitionWithoutPriorHudApprovalSmgPh		checkbox
+		* cDeconcentrationOfPovertyInPublicHousingPolicySmgPhCombined		checkbox
+		* cLocalNonTraditionalActivities		checkbox
+
+Page 6: C.1 Tenant Rent Policies
+	* c1Panel		panel
+		* c1SurveyCombined		survey
+		* c1SurveyHcv		survey
+		* c1SurveyPh		survey
+
+Page 7: C.1.a  Tiered Rent (PH)
+	* c1aPanel		panel
+		* c1aNarrativeDescription		content
+		* c1aNarrative		textarea
+		* c1aMtwStatutoryObjectivesDescription		content
+		* c1aMtwStatutoryObjectives		selectboxes
+		* content7		content
+		* c1aCostImplications		selectboxes
+		* content8		content
+		* c1aDifferentPolicyByHouseholdFamilyTypes		radio
+		* content19		content
+		* c1aHouseholdTypes		radio
+		* content20		content
+		* c1aFamilyTypes		radio
+		* c1aTheFamiliesToWhomThisMtwActivityAppliesInclude		radio
+		* c1aFamilyTypesOtherDescription		textarea
+		* content35		content
+		* c1aAllSitesOrOnlySpecificSites		radio
+		* c1aWhichSitesAreOrWillBeInvolved		radio
+		* content36		content
+		* c1aDoesThisMtwAgencyNeedASafeHarborWaiver		radio
+		* c1aWhatIsTheStatusOfTheSafeHarborWaiverRequest		radio
+		* c1aSafeHarborRequestDescriptionLabel		content
+		* ca1SafeHarborStatusDescription		textarea
+		* content37		content
+		* c1aDoesThisMtwActivityRequireAHardshipPolicy		radio
+		* ca1UploadHardshipPolicy		file
+		* content38		content
+		* c1aDoesTheHardshipPolicyApplyToMoreThanThisMtwActivity		radio
+		* content43		content
+		* c1aHardshipPolicyApplicableMtwActivities		textarea
+		* content44		content
+		* c1aHasTheMtwAgencyModifiedTheHardshipPolicySinceTheLastSubmissionOfTheMtwSupplement		radio
+		* content48		content
+		* c1aWhatConsiderationsLedTheMtwAgencyToModifyTheHardshipPolicy		textarea
+		* content39		content
+		* columns		columns
+		* fieldset		fieldset
+			* content45		content
+			* columns1		columns
+			* content46		content
+			* columns2		columns
+			* content47		content
+			* columns3		columns
+		* content40		content
+		* c1aDoesTheMtwActivityRequireAnImpactAnalysis		radio
+		* uploadImpactAnalysis		file
+		* content41		content
+		* c1aDoesTheImpactAnalysisApplyToMoreThanThisMtwActivity		radio
+		* content49		content
+		* c1aImpactAnalysisApplicableMtwActivities		textarea
+		* content42		content
+		* content50		content
+		* provideADescriptionAboutWhatHasBeenAccomplishedOrChangedDuringTheImplementation		textarea
+
+Page 8: C.1.a Tiered Rent Custom Questions (PH)
+	* c1aCustom		panel
+		* content3		content
+		* textArea		textarea
+		* file		file
+		* content9		content
+		* whatIsTheBasisForAssigningHouseholdsToIncome1		radio
+		* howIsTheTotalAnnualIncomeDefined2		radio
+		* howIsAdjustedAnnualIncomeDefined2		radio
+		* howIsTheAnnualIncomeDefined		radio
+
+Page 9: C.1.a Safe Harbor Waivers (PH)
+	* c1aSafeHarbor		panel
+		* content5		content
+		* willTheMtwAgencySubmitRequestForApprovalOfASafeHarborWaiverThisYear		radio
+		* content10		content
+		* uploadRequiredInformationInAGAboveForEachSafeHarborWaiverRequest		file
+
+Page 10: C.1.b  Tiered Rent (HCV)
+	* c1bPanel		panel
+		* c1aNarrativeDescription1		content
+		* c1aNarrative1		textarea
+		* c1aMtwStatutoryObjectivesDescription1		content
+		* c1aMtwStatutoryObjectives1		selectboxes
+		* content13		content
+		* c1aCostImplications1		selectboxes
+		* content14		content
+		* c1aDifferentPolicyByHouseholdFamilyTypes1		radio
+		* content21		content
+		* c1aHouseholdTypes1		radio
+		* content22		content
+		* c1aFamilyTypes1		radio
+		* c1aTheFamiliesToWhomThisMtwActivityAppliesInclude1		radio
+		* c1aFamilyTypesOtherDescription1		textarea
+		* content53		content
+		* c1aAllSitesOrOnlySpecificSites1		radio
+		* c1aWhichSitesAreOrWillBeInvolved1		radio
+		* content54		content
+		* c1aDoesThisMtwAgencyNeedASafeHarborWaiver1		radio
+		* c1aWhatIsTheStatusOfTheSafeHarborWaiverRequest1		radio
+		* c1aSafeHarborRequestDescriptionLabel1		content
+		* ca1SafeHarborStatusDescription1		textarea
+		* content55		content
+		* c1aDoesThisMtwActivityRequireAHardshipPolicy1		radio
+		* ca1UploadHardshipPolicy1		file
+		* content56		content
+		* c1aDoesTheHardshipPolicyApplyToMoreThanThisMtwActivity1		radio
+		* content57		content
+		* c1aHardshipPolicyApplicableMtwActivities1		textarea
+		* content58		content
+		* c1aHasTheMtwAgencyModifiedTheHardshipPolicySinceTheLastSubmissionOfTheMtwSupplement1		radio
+		* content59		content
+		* c1aWhatConsiderationsLedTheMtwAgencyToModifyTheHardshipPolicy1		textarea
+		* content60		content
+		* columns4		columns
+		* fieldset1		fieldset
+			* content61		content
+			* columns5		columns
+			* content62		content
+			* columns6		columns
+			* content63		content
+			* columns7		columns
+		* content64		content
+		* c1aDoesTheMtwActivityRequireAnImpactAnalysis1		radio
+		* uploadImpactAnalysis1		file
+		* content65		content
+		* c1aDoesTheImpactAnalysisApplyToMoreThanThisMtwActivity1		radio
+		* content66		content
+		* c1aImpactAnalysisApplicableMtwActivities1		textarea
+		* content67		content
+		* content68		content
+		* provideADescriptionAboutWhatHasBeenAccomplishedOrChangedDuringTheImplementation1		textarea
+
+Page 11: C.1.b Tiered Rent Custom Questions (HCV)
+	* c1bCustom		panel
+		* content4		content
+		* textArea1		textarea
+		* file1		file
+		* whatIsTheBasisForAssigningHouseholdsToIncome2		radio
+		* howIsAdjustedAnnualIncomeDefined4		radio
+		* howIsAdjustedAnnualIncomeDefined3		radio
+		* howIsAdjustedAnnualIncomeDefined5		radio
+
+Page 12: C.1.b Safe Harbor Waivers (HCV)
+	* c1bSafeHarbor		panel
+		* content6		content
+		* willTheMtwAgencySubmitRequestForApprovalOfASafeHarborWaiverThisYear1		radio
+		* uploadRequiredInformationInAGAboveForEachSafeHarborWaiverRequest1		file
+
+Page 13: C.2 Payment Standards and Rent Reasonableness
+	* c2Panel		panel
+		* c2surveyCombined		survey
+
+Page 14: C.3 Reexaminations
+	* c3Panel		panel
+		* c3surveyCombined		survey
+		* c3surveyHcv		survey
+		* c3SurveyPh		survey
+

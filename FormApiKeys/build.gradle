@@ -31,6 +31,9 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.13'
+
+    // Read environment variables from .env file
+    testImplementation 'io.github.cdimascio:dotenv-java:2.1.0'
 }
 
 application {

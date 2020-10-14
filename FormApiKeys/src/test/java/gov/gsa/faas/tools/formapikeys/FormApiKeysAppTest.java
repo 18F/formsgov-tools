@@ -8,7 +8,6 @@ import static org.junit.Assert.*;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.StringReader;
 import java.net.URISyntaxException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
@@ -18,10 +17,11 @@ import java.nio.file.Paths;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import io.github.cdimascio.dotenv.Dotenv;
+
 public class FormApiKeysAppTest {
 
     static String TEST_API_PATH = "https://dev-portal.fs.gsa.gov/dev/mtwform";
-    static String TEST_API_TOKEN = "VwTdih9OdR2Z39nNLhvIElwZR5xLp2"; //TODO: remove from test hardcoded...
 
     //private test helper function
     static String readFile(String path, Charset encoding) throws IOException
@@ -33,7 +33,10 @@ public class FormApiKeysAppTest {
     @Test
     public void testConnectAndParse() throws IOException, InterruptedException, URISyntaxException {
         FormApiKeysApp classUnderTest = new FormApiKeysApp();
-        JsonNode parsedNode = classUnderTest.connectAndParse(TEST_API_PATH, TEST_API_TOKEN);
+
+        Dotenv dotenv = Dotenv.configure().filename("formiokeys.env").load();
+
+        JsonNode parsedNode = classUnderTest.connectAndParse(TEST_API_PATH, dotenv.get("FORMIO_DEV_API_KEY"));
         assertNotNull(parsedNode);
     }
 

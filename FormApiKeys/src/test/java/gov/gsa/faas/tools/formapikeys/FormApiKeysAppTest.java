@@ -4,24 +4,29 @@
 package gov.gsa.faas.tools.formapikeys;
 
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.URISyntaxException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Properties;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import io.github.cdimascio.dotenv.Dotenv;
+// import io.github.cdimascio.dotenv.Dotenv;
 
 public class FormApiKeysAppTest {
 
     static String TEST_API_PATH = "https://dev-portal.fs.gsa.gov/dev/mtwform";
+    private String formioDevApiKey = "";
 
     //private test helper function
     static String readFile(String path, Charset encoding) throws IOException
@@ -30,13 +35,38 @@ public class FormApiKeysAppTest {
         return new String(encoded, encoding);
     }
 
+
+    private void getPropValues() throws IOException {
+ 
+        InputStream inputStream = null;
+        String propFileName = "formiokeys.env";
+
+		try {
+			Properties prop = new Properties();
+			inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
+ 
+			if (inputStream != null) {
+				prop.load(inputStream);
+			} else {
+				throw new FileNotFoundException("property file '" + propFileName + "' not found in the classpath");
+			}
+ 
+			// get the property value and print it out
+			formioDevApiKey = prop.getProperty("FORMIO_DEV_API_KEY");
+		} catch (Exception e) {
+			System.out.println("Exception: " + e);
+		} finally {
+            if (inputStream != null) {
+                inputStream.close();
+            }
+		}
+	}
+
     @Test
     public void testConnectAndParse() throws IOException, InterruptedException, URISyntaxException {
         FormApiKeysApp classUnderTest = new FormApiKeysApp();
-
-        Dotenv dotenv = Dotenv.configure().filename("formiokeys.env").load();
-
-        JsonNode parsedNode = classUnderTest.connectAndParse(TEST_API_PATH, dotenv.get("FORMIO_DEV_API_KEY"));
+        getPropValues();
+        JsonNode parsedNode = classUnderTest.connectAndParse(TEST_API_PATH, formioDevApiKey);
         assertNotNull(parsedNode);
     }
 

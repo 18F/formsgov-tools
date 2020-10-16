@@ -5,16 +5,14 @@ package gov.gsa.faas.tools.formapikeys;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.net.ProxySelector;
-import java.net.URI;
 import java.net.URISyntaxException;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.squareup.okhttp.OkHttpClient;
+import com.squareup.okhttp.Request;
+import com.squareup.okhttp.Response;
 
 public class FormApiKeysApp {
 
@@ -34,17 +32,19 @@ public class FormApiKeysApp {
     public JsonNode connectAndParse(String apiPath, String authToken)
             throws IOException, InterruptedException, URISyntaxException {
 
-        HttpRequest apiRequest = null;
-        apiRequest = HttpRequest.newBuilder().header("x-token", authToken).uri(new URI(apiPath)).GET().build();
+        OkHttpClient client = new OkHttpClient();
 
-        HttpResponse<String> apiResponse = null;
-        apiResponse = HttpClient.newBuilder().proxy(ProxySelector.getDefault()).build().send(apiRequest,
-                HttpResponse.BodyHandlers.ofString());
+        Request request = new Request.Builder()
+            .header("x-token", authToken)
+            .url(apiPath)
+            .build();
+
+        Response response = client.newCall(request).execute();
 
         // read json into JsonNode using Jackson ObjectMapper
         ObjectMapper mapper = new ObjectMapper();
         JsonNode rootNode = null;
-        rootNode = mapper.readTree(apiResponse.body());
+        rootNode = mapper.readTree(response.body().string());
 
         return rootNode;
     }

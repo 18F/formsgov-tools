@@ -2,7 +2,7 @@
 # Project Specific
 ######################
 # Ignore Form.io API Keys
-*.env
+src/test/resources/*.env
 # Ignore output files in the main directory
 *.txt
 # Ignore json files in the main directory

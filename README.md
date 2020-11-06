@@ -29,3 +29,12 @@ C:\dev\FormApiKeys>gradlew run --args="https://dev-portal.fs.gsa.gov/dev/mtwform
 When the tool completes, the apiKeys.txt file should be in the current directory.  The file will contain the names of the API components (and their component types) by page.
 
 *Development Note: In order for the tests in this tool to run successfully, create a "formiokeys.env" file in the test/resources directory, and populate the following value with an auth key: FORMIO_DEV_API_KEY=xxxxxxxxxxxxxxxxxxxxxx*
+
+### EmbeddedForm
+
+The EmbeddedForm tool is a docker container that runs a simple webserver that hosts an embedded USWDS form.io example.  Right now, the form URL is hardcoded within the html, to simulate the embedded functionality.
+
+To run:
+* Pull down the EmbeddedForm directory
+* To run locally, run npm install, and then npm start.  A webserver will start on your local machine at http://localhost:8080/  Navigate to this URL and enter data into the form.  When the form is submitted, a submission page should appear.
+* To create the docker container, at the command line, run "docker build -t {{username}}/{{dockername}} ." replacing {{username}} and {{dockername}} with your own values.  Then, you can execute the docker container by running "docker run -p 8888:8080 {{username}}/{{dockername}}"  Navigate to http://localhost:8888/ to enter data into the form.

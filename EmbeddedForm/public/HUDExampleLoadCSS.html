@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>HUD Example - Javascript USWDS Embedded Form</title>
+
+        <style type="text/css">
+            body {
+                background-color: #FFCC00;
+            }
+            .pageContainer { 
+                position: absolute;
+                width: 80%; 
+                top: 5%; 
+                left: 10%; 
+                background-color: white; 
+            }
+        </style>
+    </head>
+    <body>
+        <div class="pageContainer">
+            <script type="text/javascript">
+                var cssId = 'formiojs'; 
+                if (!document.getElementById(cssId))
+                {
+                    var head  = document.getElementsByTagName('head')[0];
+                    var link  = document.createElement('link');
+                    link.id   = cssId;
+                    link.rel  = 'stylesheet';
+                    link.type = 'text/css';
+                    link.href = 'https://unpkg.com/formiojs@4.12.0/dist/formio.full.min.css';
+                    link.media = 'all';
+                    head.appendChild(link);
+                }
+                var cssId1 = 'uswds'; 
+                if (!document.getElementById(cssId1))
+                {
+                    var head  = document.getElementsByTagName('head')[0];
+                    var link  = document.createElement('link');
+                    link.id   = cssId1;
+                    link.rel  = 'stylesheet';
+                    link.type = 'text/css';
+                    link.href = 'https://cdnjs.cloudflare.com/ajax/libs/uswds/2.9.0/css/uswds.min.css';
+                    link.media = 'all';
+                    head.appendChild(link);
+                }
+                var cssId2 = 'formiouswds'; 
+                if (!document.getElementById(cssId2))
+                {
+                    var head  = document.getElementsByTagName('head')[0];
+                    var link  = document.createElement('link');
+                    link.id   = cssId2;
+                    link.rel  = 'stylesheet';
+                    link.type = 'text/css';
+                    link.href = 'https://unpkg.com/@formio/uswds@2.0.0-rc.8/dist/uswds.css';
+                    link.media = 'all';
+                    head.appendChild(link);
+                }
+            </script>
+
+            <script src="https://unpkg.com/formiojs@4.12.0/dist/formio.full.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.9.0/js/uswds.min.js"></script>
+            <script src="https://unpkg.com/@formio/uswds@2.0.0-rc.8/dist/uswds.js"></script>
+
+            <div id="formio"></div>
+
+            <script type="text/javascript">
+                window.onload = function() {
+                    Formio.use(uswds);
+                    Formio.createForm(document.getElementById('formio'), 
+                                    'https://dev-portal.fs.gsa.gov/review/hud903'
+                    );
+                }
+            </script>
+        </div>
+    </body>
+</html>

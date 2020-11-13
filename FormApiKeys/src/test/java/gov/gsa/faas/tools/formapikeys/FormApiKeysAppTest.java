@@ -79,7 +79,7 @@ public class FormApiKeysAppTest {
         String jsonString = readFile(file.getAbsolutePath(), StandardCharsets.US_ASCII);
         ObjectMapper mapper = new ObjectMapper();
         JsonNode parsedNode = mapper.readTree(jsonString);
-        String actualString = classUnderTest.getApiKeys(parsedNode);
+        String actualString = classUnderTest.getApiKeys(parsedNode, true);
 
         file = new File(classLoader.getResource("expectedOutput.txt").getFile());
         String expectedString = readFile(file.getAbsolutePath(), StandardCharsets.US_ASCII);

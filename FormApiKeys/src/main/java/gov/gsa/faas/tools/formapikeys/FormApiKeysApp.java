@@ -61,27 +61,14 @@ public class FormApiKeysApp {
      * @throws InterruptedException
      * @throws IOException
      */
-    public String getApiKeys(JsonNode jsonNodeRoot) throws IOException, InterruptedException, URISyntaxException {
+    public String getApiKeys(JsonNode jsonNodeRoot, boolean outputAllFields) throws IOException, InterruptedException, URISyntaxException {
 
         String outputText = "";
         outputText = outputText.concat("Form Title: " + jsonNodeRoot.get("title").asText() + "\n");
         outputText = outputText.concat("Last Modified: " + jsonNodeRoot.get("modified").asText() + "\n");
 
-        ArrayNode pagesNode = (ArrayNode) jsonNodeRoot.get("components");
-
-        // for each page
-        for (int pageNum = 0; pageNum < pagesNode.size(); pageNum++) {
-            JsonNode pageNode = pagesNode.get(pageNum);
-            String pageTitle = pageNode.get("title").asText();
-            outputText = outputText.concat("\nPage " + (pageNum + 1) + ": " + pageTitle + "\n");
-            outputText = outputText
-                    .concat("\t" + "* " + pageNode.get("key").asText() + "\t\t" + pageNode.get("type").asText() + "\n");
-
-            ArrayNode panelComponentsNode = (ArrayNode) pageNode.get("components");
-            if (panelComponentsNode != null) {
-                outputText = outputText.concat(processComponents(panelComponentsNode, "\t\t"));
-            }
-        }
+        ArrayNode formComponentsNode = (ArrayNode) jsonNodeRoot.get("components");
+        outputText = outputText.concat(processComponents(formComponentsNode, 0, outputAllFields));
 
         return outputText + "\n";
     }
@@ -91,24 +78,180 @@ public class FormApiKeysApp {
      * ceases when a node does not contain any further components.
      * 
      * @param componentsNode the node to format
-     * @param tab            the indention to be used when writing out the form
+     * @param level            the indention to be used when writing out the form
      *                       definition api keys
      * @return String the formatted api Key string
      */
-    String processComponents(ArrayNode componentsNode, String tab) {
+    String processComponents(ArrayNode componentsNode, int level, boolean outputAllFields) {
 
-        String componentOutput = "";
+        String componentsOutput = "";
+
         for (int componentNum = 0; componentNum < componentsNode.size(); componentNum++) {
             JsonNode componentNode = componentsNode.get(componentNum);
-            componentOutput = componentOutput.concat(
-                    tab + "* " + componentNode.get("key").asText() + "\t\t" + componentNode.get("type").asText() + "\n");
-            ArrayNode componentComponentsNode = (ArrayNode) componentNode.get("components");
-            if (componentComponentsNode != null) {
-                componentOutput = componentOutput.concat(processComponents(componentComponentsNode, tab + "\t"));
-            }
+            componentsOutput = componentsOutput.concat(processComponent(componentNode, level, outputAllFields));
+        }
+
+        return componentsOutput;
+    }
+
+    String processComponent(JsonNode componentNode, int level, boolean outputAllFields) {
+        String componentOutput = "";
+        String componentNodeType = componentNode.get("type").asText();
+
+        switch (componentNodeType) {
+            case ("panel"):
+                componentOutput = componentOutput.concat(processPanel(componentNode, level, outputAllFields));
+                break;
+            case ("columns"):
+                componentOutput = componentOutput.concat(processColumns(componentNode, level, outputAllFields));
+                break;
+            case ("select"):
+                componentOutput = componentOutput.concat(processSelect(componentNode, level, outputAllFields));
+                break;
+            case ("radio"):
+                componentOutput = componentOutput.concat(processRadio(componentNode, level, outputAllFields));
+                break;
+            case ("survey"):
+                componentOutput = componentOutput.concat(processSurvey(componentNode, level, outputAllFields));
+                break;
+            case ("fieldset"):
+            default:
+                componentOutput = componentOutput.concat(processDefaultComponentType(componentNode, level, outputAllFields));
         }
 
         return componentOutput;
+    }
+
+    String processPanel(JsonNode panelNode, int level, boolean outputAllFields) {
+        // If the component is of type 'panel', it has a title, a label, & components
+        String panelOutput = "";
+        if(level==0){
+            panelOutput = panelOutput.concat("\nPanel Title:  "+ panelNode.get("title").asText() + "\n");
+        }
+        panelOutput = panelOutput.concat(processDefaultComponentType(panelNode, level, outputAllFields));
+        return panelOutput;
+    }
+
+    String processColumns(JsonNode columnsNode, int level, boolean outputAllFields) {
+        // If the component is of type 'columns', it has a label & columns, and each column has components
+        String columnsOutput = "";
+        String tabs = new String(new char[level]).replace("\0", "\t");
+        columnsOutput = columnsOutput.concat(outputComponentData(columnsNode, level, outputAllFields));
+
+        ArrayNode columnsColumnsNode = (ArrayNode) columnsNode.get("columns");
+        for (int columnNum = 0; columnNum < columnsColumnsNode.size(); columnNum++) {
+            JsonNode columnNode = columnsColumnsNode.get(columnNum);
+            columnsOutput = columnsOutput.concat(tabs + "\t" + "* Column: " + (columnNum+1) + "\n");
+            ArrayNode columnComponentsNode = (ArrayNode) columnNode.get("components");
+            columnsOutput = columnsOutput.concat(processComponents(columnComponentsNode, level + 2, outputAllFields));
+        }
+
+        return columnsOutput;
+    }
+
+    String processSelect(JsonNode selectNode, int level, boolean outputAllFields) {
+        // If the component is of type 'select', it has a label & data with values, and each has a value
+        String selectOutput = "";
+        String tabs = new String(new char[level]).replace("\0", "\t");
+        selectOutput = selectOutput.concat(outputComponentData(selectNode, level, outputAllFields));
+
+        ArrayNode selectValuesNode = (ArrayNode) selectNode.get("data").get("values");
+        for (int selectValueNum = 0; selectValueNum < selectValuesNode.size(); selectValueNum++) {
+            JsonNode selectValueNode = selectValuesNode.get(selectValueNum);
+            String selectValueNodeContents = selectValueNode.get("value").asText();
+            if(selectValueNodeContents != null && !selectValueNodeContents.trim().isEmpty()){
+                selectOutput = selectOutput.concat(tabs + "\t" + "* " + selectValueNode.get("value").asText() + "\n");
+            }
+        }
+        ArrayNode selectJsonNode = (ArrayNode) selectNode.get("data").get("json");
+        if(selectJsonNode != null){
+            selectOutput = selectOutput.concat(tabs + "\t" + "* Data for this select box provided via Json\n");
+        }
+
+        return selectOutput;
+    }
+
+    String processRadio(JsonNode radioNode, int level, boolean outputAllFields) {
+        // If the component is of type 'select', it has a label & data with values, and each has a value
+        String radioOutput = "";
+        String tabs = new String(new char[level]).replace("\0", "\t");
+        radioOutput = radioOutput.concat(outputComponentData(radioNode, level, outputAllFields));
+
+        ArrayNode radioValuesNode = (ArrayNode) radioNode.get("values");
+        for (int radioValueNum = 0; radioValueNum < radioValuesNode.size(); radioValueNum++) {
+            JsonNode radioValueNode = radioValuesNode.get(radioValueNum);
+            radioOutput = radioOutput.concat(tabs + "\t" + "* " + radioValueNode.get("value").asText() + "\n");
+        }
+
+        return radioOutput;
+    }
+
+    String processSurvey(JsonNode surveyNode, int level, boolean outputAllFields) {
+        // If the component is of type 'select', it has a label & data with values, and each has a value
+        String surveyOutput = "";
+        String tabs = new String(new char[level]).replace("\0", "\t");
+        surveyOutput = surveyOutput.concat(outputComponentData(surveyNode, level, outputAllFields));
+
+        ArrayNode surveyValuesNode = (ArrayNode) surveyNode.get("values");
+        surveyOutput = surveyOutput.concat(tabs + "\t" + "* Survey Values:"  + "\n");
+        for (int surveyValueNum = 0; surveyValueNum < surveyValuesNode.size(); surveyValueNum++) {
+            JsonNode surveyValueNode = surveyValuesNode.get(surveyValueNum);
+            surveyOutput = surveyOutput.concat(tabs + "\t\t" + "* " + surveyValueNode.get("value").asText() + "\n");
+        }
+
+        ArrayNode surveyQuestionsNode = (ArrayNode) surveyNode.get("questions");
+        surveyOutput = surveyOutput.concat(tabs + "\t" + "* Survey Questions:" + "\n");
+        for (int surveyQuestionsNum = 0; surveyQuestionsNum < surveyQuestionsNode.size(); surveyQuestionsNum++) {
+            JsonNode surveyQuestionNode = surveyQuestionsNode.get(surveyQuestionsNum);
+            surveyOutput = surveyOutput.concat(tabs + "\t\t" + "* " + surveyQuestionNode.get("value").asText() + "\n");
+        }
+
+        return surveyOutput;
+    }
+
+    String processDefaultComponentType(JsonNode defaultComponentNode, int level, boolean outputAllFields) {
+        // If the component is of type 'fieldset' or other types, it has a label & components
+        String defaultComponentOutput = "";
+        defaultComponentOutput = defaultComponentOutput.concat(outputComponentData(defaultComponentNode, level, outputAllFields));
+
+        ArrayNode defaultComponentComponentsNode = (ArrayNode) defaultComponentNode.get("components");
+        if (defaultComponentComponentsNode != null) {
+            defaultComponentOutput = defaultComponentOutput.concat(processComponents(defaultComponentComponentsNode, level + 1, outputAllFields));
+        }
+
+        return defaultComponentOutput;
+    }
+
+    private String outputComponentData(JsonNode componentNode, int level, boolean outputAllFields) {
+        String componentDataOutput = "";
+        String componentNodeType = componentNode.get("type").asText();
+
+        if(outputType(componentNodeType, outputAllFields)){
+            String tabs = new String(new char[level]).replace("\0", "\t");
+            componentDataOutput = componentDataOutput.concat(tabs + "* " + componentNode.get("key").asText() + "\t" + componentNodeType + "\n");
+        }
+        return componentDataOutput;
+    }
+
+
+    private boolean outputType(String componentType, boolean outputAllFields) {
+
+        boolean returnVal = true;
+
+        if (!outputAllFields){
+            switch (componentType){
+                case ("content"): 
+                case ("htmlelement"):
+                    // do not output the value
+                    returnVal = false;
+                    break; 
+                default: 
+                    // output the value
+                    returnVal = true;
+            }
+        }
+
+        return returnVal;
     }
 
     /**
@@ -142,19 +285,22 @@ public class FormApiKeysApp {
      *             </ol>
      */
     public static void main(String[] args) {
-        if (args==null || args.length != 3) {
-            System.out.println("Three arguments are required.\n"
+        if (args==null || args.length != 4) {
+            System.out.println("Four arguments are required.\n"
                     + "API Path: The full path to the Form.io form definition json path \n"
                     + "Auth Token: The x-token value to be provided in the header to authenticate to the Form.io form definition json rest server \n"
-                    + "Output Filename: The full path to the file where the API Keys for the above form definition should be written \n");
+                    + "Output Filename: The full path to the file where the API Keys for the above form definition should be written \n"
+                    + "Output All Fields: \'True\' if all fields should be output, \'False\' if only user input fields should be output. A value of \'False\' will ignore fields with the type of \'column\', \'content\', and \'htmlelement\'.");
         } else {
             String apiPath = args[0];
             String authToken = args[1];
             String outputFilename = args[2];
+            boolean outputAllFields = Boolean.parseBoolean(args[3]);
+
             FormApiKeysApp apiKeysApp = new FormApiKeysApp();
             try {
                 JsonNode parsedFormDefintion = apiKeysApp.connectAndParse(apiPath, authToken);
-                String apiKeyOutput = apiKeysApp.getApiKeys(parsedFormDefintion);
+                String apiKeyOutput = apiKeysApp.getApiKeys(parsedFormDefintion, outputAllFields);
                 apiKeysApp.writeKeyOutput(apiKeyOutput, outputFilename);
                 System.out.println("Successfully wrote the form definition json API keys defined within {" + apiPath
                         + "} to the {" + outputFilename + "} file.");

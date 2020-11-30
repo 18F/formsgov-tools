@@ -18,13 +18,13 @@ The FormApiKeys tool is a simple command line tool that allows the user to input
 
 To run:
 * Pull down the FormApiKeys directory
-* Run the following command, replacing 'form_path', 'auth_key', and 'output_path' with appropriate values
+* Run the following command, replacing 'form_path', 'auth_key', 'output_path', and 'print_content_fields" with appropriate values
 
-C:\dev\FormApiKeys>gradlew run --args="form_path auth_key output_path"
+C:\dev\FormApiKeys>gradlew run --args="form_path auth_key output_path print_content_fields"
 
 Here is an example call (auth key not provided):
 
-C:\dev\FormApiKeys>gradlew run --args="https://dev-portal.fs.gsa.gov/dev/mtwform xxxxxxxxxxxxxxxxx apiKeys.txt"
+C:\dev\FormApiKeys>gradlew run --args="https://dev-portal.fs.gsa.gov/dev/mtwform xxxxxxxxxxxxxxxxx apiKeys.txt true"
 
 When the tool completes, the apiKeys.txt file should be in the current directory.  The file will contain the names of the API components (and their component types) by page.
 

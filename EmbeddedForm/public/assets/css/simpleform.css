@@ -1,0 +1,13 @@
+.has-error, .has-success {
+  display: inherit !important;
+}
+body {
+  background-color: #FFCC00;
+}
+.pageContainer { 
+  position: absolute;
+  width: 80%; 
+  top: 5%; 
+  left: 10%; 
+  background-color: white; 
+}

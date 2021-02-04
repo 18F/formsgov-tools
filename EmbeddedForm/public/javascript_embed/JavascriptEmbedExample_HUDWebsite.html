@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>HUD Example - Javascript USWDS Embedded Form</title>
-
-        <style type="text/css">
-            body {
-                background-color: #FFCC00;
-            }
-            .pageContainer { 
-                position: absolute;
-                width: 80%; 
-                top: 5%; 
-                left: 10%; 
-                background-color: white; 
-            }
-        </style>
+        <title>JavascriptEmbedExample_HUDWebsite/title>
+        <link rel="stylesheet" href="/assets/css/simpleform.css">
     </head>
     <body>
         <div class="pageContainer">
+            <!-- Everything within the "pageContainer" works within the HUD Drupal website, but there is a problem
+            when redirecting to another webpage - get a VPN error -->
+
+            <link rel="stylesheet" type="text/css" href="https://unpkg.com/formiojs@4.12.0/dist/formio.full.min.css" />
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.9.0/css/uswds.min.css" />
+            <link rel="stylesheet" type="text/css" href="https://unpkg.com/@formio/uswds@2.0.0-rc.8/dist/uswds.css" />
+            <p>&nbsp;</p>
+
             <noscript id="deferred-styles">
                 <link rel="stylesheet" type="text/css" href="https://unpkg.com/formiojs@4.12.0/dist/formio.full.min.css" />
                 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.9.0/css/uswds.min.css" />
@@ -56,11 +49,15 @@
                     ).then(function(form) {
                         // Submit the form
                         form.on('submit', function (submission) {
-                            window.location=('submitted.html?submission_id=' + submission._id);
+                            window.location.href="https://hudvpn2.hud.gov/go/testmgmt.hud.gov~ssl/program_offices/fair_housing_equal_opp/file_complaint_complete";
                         });
                     });
                 }
             </script>
+
+            <p>&nbsp;</p>
+
+            <p>Test <a href="https://hudvpn2.hud.gov/go/testmgmt.hud.gov~ssl/program_offices/fair_housing_equal_opp/file_complaint_complete">link to submission</a> page</p>
         </div>
     </body>
 </html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<head>
+    <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Specific Metas
+================================================== -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Title and meta description
+================================================== -->
+  <title>File a housing discrimination complaint with HUD</title>
+  <meta property="og:title" content="File a housing discrimination complaint with HUD">
+
+<!-- Favicons
+================================================== -->
+  <!-- 128x128 -->
+  <link rel="shortcut icon" type="image/png" href="/hud_standalone/assets/img/HUDlogo_0.png">
+
+<!-- ANALYTICS
+================================================== -->
+	<!-- Google Analytics -->
+	<!-- <script>
+		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+		ga('create', 'UA-48605964-43', 'gsa.gov');
+		ga('send', 'pageview');
+		// anonymize user IPs (chops off the last IP triplet)
+		ga('set', 'anonymizeIp', true);
+
+		// forces SSL even if the page were somehow loaded over http://
+		ga('set', 'forceSSL', true);
+
+		ga('send', 'pageview');
+	</script> -->
+	<!-- <script async src='https://www.google-analytics.com/analytics.js'></script> -->
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+	<!-- <script async type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA&subagency=TTS"></script> -->
+
+<!-- CSS
+================================================== -->
+<!-- env: production -->
+  <link rel="stylesheet" href="/hud_standalone/assets/css/styles.css">
+
+  <!-- Latest is 4.12.0 -->
+  <!-- Used on https://apps.form.io/uswds/ is 4.10.4 -->
+  <link rel="stylesheet" href="https://unpkg.com/formiojs@4.12.0/dist/formio.full.min.css" />
+  <script src="https://unpkg.com/formiojs@4.12.0/dist/formio.full.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://unpkg.com/formiojs@4.10.4/dist/formio.full.min.css" />
+  <script src="https://unpkg.com/formiojs@4.10.4/dist/formio.full.min.js"></script> -->
+
+  <!-- Latest is 2.9.0 -->
+  <!-- Used on https://apps.form.io/uswds/ is 2.6.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.9.0/css/uswds.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.9.0/js/uswds.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.6.0/css/uswds.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.6.0/js/uswds.min.js"></script> -->
+
+  <!-- Latest is 1.8.2-rc.12 -->
+  <!-- Used on https://apps.form.io/uswds/ is ??? -->
+  <link rel="stylesheet" href="https://unpkg.com/@formio/uswds@2.0.0-rc.8/dist/uswds.css" />
+  <script src="https://unpkg.com/@formio/uswds@2.0.0-rc.8/dist/uswds.js"></script>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+  </script>
+  <script> 
+    $(function(){
+      $("#banner").load("banner.html"); 
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+    });
+  </script> 
+</head>
+
+<body class="page-banner layout-styleguide ">
+  <!-- <div id=banner></div> -->
+  <div id=header></div>
+  
+
+  <div class="default-container">
+    <main id="main-content" class="main-content">
+
+      <div class="content-container">
+
+        <div id="formio"></div>
+
+        <script type="text/javascript">
+            window.onload = function() {
+                Formio.use(uswds);
+                Formio.createForm(document.getElementById('formio'), 
+                                'https://dev-portal.fs.gsa.gov/dev/hud903', {
+                                  language: 'en',
+                                  i18n: {
+                                    'en': {
+                                      Next: 'Continue'
+                                    }
+                                  }
+                                }
+                ).then(function(form) {
+                  //set the language to english
+                  window.setLanguage = function(lang) {
+                    form.language = 'en'
+                  };
+
+                    // Submit the form
+                    form.on('submit', function (submission) {
+                        window.location=('submitted.html?submission_id=' + submission._id);
+                    });
+                });
+            }
+        </script>
+      </div>
+    </main>
+  </div>
+
+  <div id=footer></div>
+
+
+  </body>
+</html>

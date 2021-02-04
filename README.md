@@ -14,7 +14,7 @@ In this repository, there are many simple tools that aid in the development and 
 
 ### Form API Keys
 
-The FormApiKeys tool is a simple command line tool that allows the user to input a Form.io form definition path, an authentication token for the form definition server, and a local output file path and outputs the API Key names for the fields on each page of the form.
+The FormApiKeys tool is a simple command line tool that allows the user to input a Form.io form definition path, an authentication token for the form definition server, a local output file path, and a flag indicating if the content fields should be printed and outputs the API Key names for the fields on each page of the form.
 
 To run:
 * Pull down the FormApiKeys directory

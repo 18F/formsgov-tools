@@ -1,0 +1,105 @@
+.usa-skipnav {
+    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+      sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.5;
+    color: #005ea2;
+    text-decoration: underline;
+    background: 0 0;
+    left: 0;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: -3.8rem;
+    transition: 0.2s ease-in-out;
+    z-index: 100;
+  }
+  .usa-skipnav:hover {
+    color: #1a4480;
+  }
+  .usa-skipnav:active {
+    color: #162e51;
+  }
+  .usa-skipnav:focus {
+    outline: 0.25rem solid #2491ff;
+    outline-offset: 0;
+  }
+  .usa-skipnav:visited {
+    color: #54278f;
+  }
+  .usa-skipnav:focus {
+    background: #fff;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: 0.2s ease-in-out;
+  }
+  .usa-banner {
+    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+      sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+  }
+  @media all and (min-width: 40em) {
+    .usa-banner {
+      font-size: 0.87rem;
+      padding-bottom: 0;
+    }
+  }
+  .site-banner {
+    display: inherit;
+  }
+  .site-header {
+    display: inherit;
+  }
+  .site-header-dark {
+    background-color: #142b4c;
+  }
+  .site-banner .usa-banner__inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .usa-banner__content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 64rem;
+    background-color: transparent;
+    font-size: 1rem;
+    overflow: hidden;
+    padding: 0.25rem 1rem 1rem 0.5rem;
+    width: 100%;
+  }
+  @media all and (min-width: 64em) {
+    .usa-banner__content {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+  @media all and (min-width: 40em) {
+    .usa-banner__content {
+      padding-bottom: 1.5rem;
+      padding-top: 1.5rem;
+    }
+  }
+  .usa-banner__content p:first-child {
+    margin: 0;
+  }
+
+  .content-container {
+    margin-left: 2rem;
+    max-width: 700px;
+  }
+
+
+
+@media all and (min-width: 64em) {
+    .hud-logo {
+      display: inherit;
+      float: left;
+      margin-bottom: 0;
+      margin-left: 1rem;
+    }
+}

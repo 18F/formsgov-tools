@@ -14,9 +14,9 @@ plugins {
     id 'application'
 }
 
-if(JavaVersion.current() != JavaVersion.VERSION_1_8){
-    throw new GradleException("This build must be run with java 8")
-}
+// if(JavaVersion.current() != JavaVersion.VERSION_1_8){
+//     throw new GradleException("This build must be run with java 8")
+// }
 
 repositories {
     mavenLocal()

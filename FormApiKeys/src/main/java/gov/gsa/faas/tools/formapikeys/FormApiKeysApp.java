@@ -224,11 +224,11 @@ public class FormApiKeysApp {
 
     private String outputComponentData(JsonNode componentNode, int level, boolean outputAllFields) {
         String componentDataOutput = "";
-        String componentNodeType = componentNode.get("type").asText();
+        String componentNodeType = componentNode.get("label").asText();
 
         if(outputType(componentNodeType, outputAllFields)){
             String tabs = new String(new char[level]).replace("\0", "\t");
-            componentDataOutput = componentDataOutput.concat(tabs + "* " + componentNode.get("key").asText() + "\t" + componentNodeType + "\n");
+            componentDataOutput = componentDataOutput.concat(tabs + "* " + componentNode.get("key").asText() + "\t\'" + componentNodeType + "\',\n");
         }
         return componentDataOutput;
     }

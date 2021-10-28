@@ -2,15 +2,23 @@
 <html lang="en">
     <head>
         <title>InlineEmbedExample_FormIOProposed</title>
-        <link rel="stylesheet" href="/assets/css/simpleform.css">
 
-        <!-- <link rel="stylesheet" href="https://unpkg.com/formiojs@4.12.0/dist/formio.full.min.css" /> -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.9.0/css/uswds.min.css" />
-        <link rel="stylesheet" href="https://unpkg.com/@formio/uswds@1.8.2-rc.12/dist/uswds.css" />
+        <link rel="stylesheet" href="https://unpkg.com/formiojs@latest/dist/formio.full.min.js" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.1/css/uswds.min.css" />
+        <link rel="stylesheet" href="https://unpkg.com/@formio/uswds@2.4.0/dist/uswds.css" />
     </head>
+    <style>
+        .pageContainer { 
+            position: absolute;
+            width: 80%; 
+            top: 5%; 
+            left: 10%; 
+            background-color: white; 
+        }
+    </style>
     <body>
         <div class="pageContainer">
-            <script src="https://cdn.test-form.io/formiojs/formio.embed.js?src=https://portal-dev.forms.gov/agencydemo-review/madeinamericawaiverrequest&template=uswds&redirect=https://www.google.com"></script>
+            <script src="https://cdn.form.io/formiojs/formio.embed.js?src=https://submission.forms.gov/mia-live/madeinamericanonavailabilitywaiverrequest&template=uswds&redirect=https://www.google.com"></script>
         </div>
     </body>
 </html>

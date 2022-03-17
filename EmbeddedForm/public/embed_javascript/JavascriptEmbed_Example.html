@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JavascriptEmbed_Example</title>
+
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.form.io/formiojs/formio.full.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.1/css/uswds.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/@formio/uswds@2.4.0/dist/uswds.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/premium/premium.css">
+
+        <script src="https://cdn.form.io/formiojs/formio.full.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.1/js/uswds.min.js"></script>
+        <script src="https://unpkg.com/@formio/uswds@2.4.0/dist/uswds.js"></script>
+        <script src="../assets/premium/premium.min.js"></script>
+    </head>
+    <style>
+        .pageContainer { 
+            position: absolute;
+            width: 80%; 
+            top: 5%; 
+            left: 10%; 
+            background-color: white; 
+        }
+    </style>
+    <body>
+        <div class="pageContainer">
+
+            <div id="formio"></div>
+
+            <script type="text/javascript">
+                window.onload = function() {
+                    Formio.use(premium);
+                    Formio.use(uswds);
+                    Formio.createForm(document.getElementById('formio'), 
+                    'https://submission-test.forms.gov/mia-test/madeinamericanonavailabilitywaiverrequest'
+                    ).then(function(form) {
+                        // Submit the form
+                        form.on('submit', function (submission) {
+                            window.location.href="success.html";
+                        });
+                    });
+                }
+            </script>
+
+        </div>
+    </body>
+</html>

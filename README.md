@@ -1,7 +1,7 @@
 # README.md
 ## FormService Tools
 
-This is the main repository for the FormService tools.  There is a companion repository for the FormService / Forms as a Service (FaaS) microservice.
+This is the main repository for the FormService tools.
 
 ## Repository Structure
 
@@ -11,6 +11,8 @@ The FormService Tools GitHub Repository contains various tools used to help duri
 ## Tools
 
 In this repository, there are many simple tools that aid in the development and testing of FormService functionality.  Following is a brief description of each tool along with execution instructions.
+
+---
 
 ### Form API Keys
 
@@ -30,14 +32,15 @@ When the tool completes, the apiKeys.txt file should be in the current directory
 
 *Development Note: In order for the tests in this tool to run successfully, create a "formiokeys.env" file in the test/resources directory, and populate the following value with an auth key: FORMIO_DEV_API_KEY=xxxxxxxxxxxxxxxxxxxxxx*
 
+---
+
 ### EmbeddedForm
 
-The EmbeddedForm tool is a docker container that runs a simple webserver that hosts an embedded USWDS form.io example.  Right now, the form URL is hardcoded within the html, to simulate the embedded functionality.
+The EmbeddedForm tool is a docker container that runs a simple webserver that hosts an embedded USWDS form.io example.  The tool is useful to simulate how customers may choose to render a form within their applications.
 
-To run:
-* Pull down the EmbeddedForm directory
-* To run locally, run npm install, and then npm start.  A webserver will start on your local machine at http://localhost:8080/  Navigate to this URL and enter data into the form.  When the form is submitted, a submission page should appear.
-* To create the docker container, at the command line, run "docker build -t {{username}}/{{dockername}} ." replacing {{username}} and {{dockername}} with your own values.  Then, you can execute the docker container by running "docker run -p 8888:8080 {{username}}/{{dockername}}"  Navigate to http://localhost:8888/ to enter data into the form.
+A detailed readme can be found in the EmbeddedForm directory.
+
+---
 
 ### FormDeployer Tool
 

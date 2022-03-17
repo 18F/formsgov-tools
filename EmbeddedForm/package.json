@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@formio/premium": "^1.16.4",
     "express": "^4.17.1"
   }
 }

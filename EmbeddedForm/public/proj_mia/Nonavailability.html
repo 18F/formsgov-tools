@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Waiver Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex nofollow" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.form.io/formiojs/formio.full.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.1/css/uswds.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@formio/uswds@2.4.0/dist/uswds.css"
+    />
+    <script src="https://cdn.form.io/formiojs/formio.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.1/js/uswds.min.js"></script>
+    <script src="https://unpkg.com/@formio/uswds@2.4.0/dist/uswds.js"></script>
+    <!--{% asset premium.css %} {% asset premium.min.js %}-->
+    <link rel="stylesheet" type="text/css" href="../assets/premium/premium.css">
+    <script src="../assets/premium/premium.min.js"></script>
+
+  </head>
+  <body class="margin-0">
+    <header class="bg-base-lightest">
+      <div class="grid-container">
+        <div class="grid-row grid-gap flex-align-center flex-no-wrap">
+          <div class="grid-col-4 width-card">{% include logo.html %}</div>
+          <div class="grid-col-8">
+            <h1 class="font-sans-lg desktop:margin-bottom-0">
+              Made in America Nonavailability Proposed Waiver
+            </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="grid-container padding-bottom-8">
+        <div id="formio"></div>
+      </div>
+    </main>
+
+    <script type="text/javascript">
+      window.onload = function () {
+        Formio.use(premium)
+        Formio.use(uswds)
+        Formio.createForm(
+          document.getElementById('formio'),
+          'https://submission-test.forms.gov/mia-test/madeinamericanonavailabilitywaiverrequest'
+        ).then(function (form, event) {
+          form.on('nextPage', function (event) {
+            window.scrollTo(0, 0)
+          })
+          form.on('prevPage', function (event) {
+            window.scrollTo(0, 0)
+          })
+          // Submit the form
+          form.on('submit', function (submission) {
+            window.location.href = 'success.html'
+          })
+        })
+      }
+    </script>
+  </body>
+</html>

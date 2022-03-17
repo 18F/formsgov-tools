@@ -9,16 +9,32 @@
 
             <h1>This is the landing page for the embedded form testing project</h1>
 
-            <p>This project tests embedding forms three different ways:</p>
+            <p>This project tests embedding form.io forms different ways:</p>
             <ol>
-                <li>Using Javascript embedding</li>
-                <li>Using Inline embedding</li>
-                <li>Using IFrame embedding</li>
+                <li><a href="embed_inline/InlineEmbed_Example.html">Using Inline embedding</a></li>
+                <li><a href="embed_javascript/JavascriptEmbed_Example.html">Using Javascript embedding</a></li>
             </ol>
 
-            <div>
-                <p>For a Javascript Embed Example with redirect to submission page.  Take a look at hud_standalone.</p>
-            </div>
+            <p>It also contains simple example embedding pages that are similar to how certain projects 
+                are embedded in their calling applications.  This is useful for testing, when wishing to 
+                simulate the calling environment as closely as possible:</p>
+            <ol>
+                <li>
+                    <p>Made In America</p>
+                    <ul>
+                        <li><a href="proj_mia/Nonavailability.html">Nonavailability Waiver</a></li>
+                        <li><a href="proj_mia/Urgent.html">Urgent Waiver (TBD)</a></li>
+                    </ul>
+                    <p></p>
+                </li>
+                <li>
+                    <p><a href="proj_hud/IntroFHEO.html">Hud 903 Form</a> (javascript embedding with submission page redirect)</p>
+                    <p>
+                        Ultimately the team determined to go with an application to host the HUD form.<br/>
+                        The application can be found here: <a href="https://github.com/18F/formservice-hud903">https://github.com/18F/formservice-hud903</a>
+                    </p>
+                </li>
+            </ol>
         </div>
     </body>
 </html>

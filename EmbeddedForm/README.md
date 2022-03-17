@@ -1,28 +1,67 @@
-## HUD Website Dev links
+# README.md
+## EmbeddedForm
 
-Inline Embed in HUD Dev website
-https://hudvpn2.hud.gov/go/testmgmt.hud.gov~ssl/program_offices/fair_housing_equal_opp/file_complaint_%E2%80%93_english_gsa_inline?previewkey=MG77DtdAMW16UHjIQc8Glv7edrt8GvIdKCeCf4terNI
+The purpose of this project is to provide testable, modifiable examples of how a form.io form could be embedded in to a webpage for developers.  Form.io ha snippets of how to implement these examples under the "</> Embed" tab within the form.io developer portal.  The purpose of this project is to provide a place to try out a full implementation.
 
-Javascript Embed in HUD Dev website
-https://hudvpn2.hud.gov/go/testmgmt.hud.gov~ssl/program_offices/fair_housing_equal_opp/file_complaint_%E2%80%93_english_embedjs?previewkey=0fiOmsgKuLs9XZYXlEoQa9ihKuGIUU69L0kAsRdltPM
+Form.io has documentation on ALL of the additional embedding parameters and options at https://help.form.io/developers/rendering .  The Quick Inline Embed Configurator link provided in the documentation might be of use as well.
 
-IFrame Embed in HUD Dev website
-https://hudvpn2.hud.gov/go/testmgmt.hud.gov~ssl/program_offices/fair_housing_equal_opp/file_complaint_%E2%80%93_english?previewkey=6sPyoWmIUPHpJqdcOrjubDFjzRvoP257nczT0VrhtAY
+It is really useful to test forms out using the technology under which they will be rendered officially, to verify things like:
+* page spacing
+* returning to the top of the page on subsequent wizard pages
+* display of error messages
+* color / size / font rendering
+* etc.
 
-File a Complaint Complete Page in HUD Dev website
-https://hudvpn2.hud.gov/go/testmgmt.hud.gov~ssl/program_offices/fair_housing_equal_opp/file_complaint_complete?previewkey=sCPcDAa-knt1-6JD6NedbiFh1OmaiD3_YoO1xbw6Dzs
+---
 
+### How to use this project
 
-## Other Notes
+It is recommended that developers consider which embedding option is better for them 
+(inline being preferred/recommended by form.io), and then copy the example into a project folder.
 
-You can reference formio versions with @latest, or with the version number.  Version number is probably better to maintain consistency?
-https://unpkg.com/formiojs@latest/dist/formio.full.min.js
-https://unpkg.com/@formio/uswds@latest/dist/uswds.js
+The form URL is hardcoded within the example HTML, so for testing, the developer will 
+have to modify the URL to indicate the environment, stage, and form name that they are testing.
+
+Please note that because this project is used for developer testing, the stylesheet and 
+javascript versions may not be up to date.  
+
+Developers can reference formio versions with @latest, or with the version number. Version 
+number is recommended to ensure changes to libararies do not catch the team unaware.
+
+---
+
+### Developer things to know about form.io
+
+If using premium components (like datasource), the form.io premium css and js files need to be used.  A version of these files can be found within the assets / premium folder.  To obtain the latest versions, follow these instructions from the form.io vendor:
+
+> The premium components require the steps here to be followed: 
+>
+> https://pkg.form.io/-/web/detail/@formio/instructions
+>
+> We add portal.form.io usernames to the PKG system.
+
+---
 
 ### Build and run the webserver
+
+Run the following commands to run the webserver without the docker container:
 
 `npm install`
 
 `npm start`
 
-navigate to the localhost:<port> specified in your browser
+A webserver will start on your local machine at http://localhost:8080/  
+
+The landing page will appear, describing the different types of examples included in this project. Choose the example you wish to test.
+
+---
+
+### Build and run the docker container
+
+Run the following commands to build the docker container:
+
+`docker build -t {{username}}/{{dockername}} .` replacing {{username}} and {{dockername}} with your own values.
+
+Execute the docker container by running `docker run -p 8888:8080 {{username}}/{{dockername}}`  
+
+The landing page will appear, describing the different types of examples included in this project. Choose the example you wish to test.

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>InlineEmbed_Example</title>
+        <link rel="stylesheet" href="https://portal-test.forms.gov/faas-test/manage/view/assets/lib/offline/formio.offline.min.js" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.1/css/uswds.min.css" />
+        <link rel="stylesheet" href="https://unpkg.com/@formio/uswds@2.4.0/dist/uswds.css" />
+    </head>
+    <style>
+        .pageContainer { 
+            position: absolute;
+            width: 80%; 
+            top: 5%; 
+            left: 10%; 
+            background-color: white; 
+        }
+    </style>
+    <body>
+        <div class="pageContainer">
+            <!-- CDN for most up-to-date form.io embed javascript -->
+            <!--https://cdn.test-form.io/formiojs/formio.embed.js-->
+            <!-- probably preferable to use the version provided with the local form.io installation instead -->
+
+            <script src="https://portal-test.forms.gov/faas-test/manage/view/assets/lib/offline/formio.offline.min.js?src=https://portal-test.forms.gov/faas-test/embeddedformexample&template=uswds&redirect=success.html"></script>
+        </div>
+    </body>
+</html>

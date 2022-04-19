@@ -55,6 +55,8 @@ A webserver will start on your local machine at http://localhost:8080/
 The landing page will appear, describing the different types of examples included in this project. Choose the example you wish to test.
 
 ---
+### Note if you do not have access to formio/premium (you will know this if you get 401 when you run npm install)
+Check the following link: https://help.form.io/userguide/forms/premium-components
 
 ### Build and run the docker container
 

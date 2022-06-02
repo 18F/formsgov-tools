@@ -86,3 +86,20 @@ Notes:  There are other parts of the form definition that we will have to make s
 Submission Server:  There is one weirdness with the submission server.  While the form definition can be promoted in the Central Hub, any actions must be added specifically to the submission server.  Not sure how we do this automatically, but we will want to consider adding this to this tool.  IT WILL GET EASILY FORGOTTEN!
 1. 
 1. 
+
+
+### SubmissionMover Tool
+
+This is the main repository for the FormService SubmissionMover.  The SubmissionMover tool is a simple command line tool that can be used to take submissions in a json file and update existing submissions with the inforamtion from the file.  The user provides a Form.io submissions data file path, an admin authentication token for the destination form definition server, and the full path to the destination stage, and the tool updates the submissions in the destination form.  If the submission does not exist, it will not be inserted, otherwise, the submission will be updated.  The tool will primarily be used in a standalone fashion if needed.
+
+To run:
+* Clone the SubmissionMover
+* Run the following command, replacing 'json_submissions_file_path', 'dest_auth_admin_key', 'dest_path' with appropriate values
+
+C:\dev\SubmissionMover>gradlew run --args="json_submissions_file_path dest_auth_admin_key dest_path"
+
+Here is an example call (auth key not provided):
+
+C:\dev\SubmissionMover>gradlew run --args="C:\submissionsToUpdate.json xxxxxxxxxxxxxxxxx https://irs-dev.service.forms.gov/formssandbox-dev/smoketest"
+
+When the tool completes, the submissions should be updated in the destination stage.  
